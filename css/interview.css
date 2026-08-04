@@ -1,0 +1,596 @@
+/*==================================
+ GOOGLE FONT
+==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*==================================
+ GLOBAL
+==================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#F5F7FB;
+
+    color:#1E293B;
+
+}
+
+/*==================================
+ NAVBAR
+==================================*/
+
+.navbar{
+
+    background:#ffffff;
+
+    padding:15px 0;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+.navbar-brand{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#2563EB !important;
+
+}
+
+.nav-link{
+
+    font-weight:600;
+
+    margin-left:20px;
+
+    color:#334155 !important;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#2563EB !important;
+
+}
+
+.nav-link.active{
+
+    color:#2563EB !important;
+
+}
+
+/*==================================
+ HERO
+==================================*/
+
+.hero{
+
+    background:linear-gradient(135deg,#2563EB,#4F46E5);
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+    border-radius:0 0 30px 30px;
+
+}
+
+.hero h1{
+
+    font-size:50px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    font-size:18px;
+
+    opacity:.95;
+
+}
+
+/*==================================
+ SEARCH
+==================================*/
+
+.form-control,
+.form-select{
+
+    border-radius:14px;
+
+    padding:14px;
+
+    border:1px solid #CBD5E1;
+
+    box-shadow:none;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#2563EB;
+
+    box-shadow:0 0 0 .2rem rgba(37,99,235,.15);
+
+}
+
+/*==================================
+ QUESTION CARD
+==================================*/
+
+.question-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:18px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.question-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.10);
+
+}
+
+/*==================================
+ QUESTION HEADER
+==================================*/
+
+.question-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+}
+
+.question-title{
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#1E293B;
+
+}
+
+.question-icon{
+
+    font-size:20px;
+
+    color:#2563EB;
+
+}
+
+/*==================================
+ ANSWER
+==================================*/
+
+.answer{
+
+    display:none;
+
+    margin-top:20px;
+
+    padding-top:20px;
+
+    border-top:1px solid #E2E8F0;
+
+}
+
+.answer h6{
+
+    color:#2563EB;
+
+    font-weight:700;
+
+}
+
+.answer p{
+
+    margin-bottom:15px;
+
+}
+
+.code-box{
+
+    background:#0F172A;
+
+    color:#fff;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    overflow:auto;
+
+    font-family:Consolas;
+
+}
+
+/*==================================
+ BADGES
+==================================*/
+
+.badge-custom{
+
+    background:#E0E7FF;
+
+    color:#2563EB;
+
+    padding:7px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    margin-right:8px;
+
+}
+
+/*==================================
+ FOOTER
+==================================*/
+
+footer{
+
+    background:#fff;
+
+    margin-top:60px;
+
+}
+
+/*==================================
+ MOBILE
+==================================*/
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.question-title{
+
+font-size:16px;
+
+}
+
+}
+
+/*==================================
+ Answer Box
+==================================*/
+
+.answer-box{
+
+line-height:1.9;
+
+font-size:17px;
+
+color:#334155;
+
+}
+
+/*==================================
+ SQL Box
+==================================*/
+
+.sql-box{
+
+background:#0F172A;
+
+color:#F8FAFC;
+
+padding:20px;
+
+border-radius:15px;
+
+font-size:16px;
+
+overflow:auto;
+
+}
+
+/*==================================
+ Tip Box
+==================================*/
+
+.tip-box{
+
+background:#FEF9C3;
+
+padding:18px;
+
+border-left:6px solid orange;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+/*==================================
+ Related Topics
+==================================*/
+
+#relatedTopics .badge{
+
+font-size:14px;
+
+padding:10px 18px;
+
+margin:5px;
+
+border-radius:30px;
+
+}
+
+/*==================================
+ Hero Section
+==================================*/
+
+.hero{
+
+background:linear-gradient(135deg,#2563EB,#1E3A8A);
+
+color:#fff;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+font-weight:700;
+
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+opacity:.95;
+
+max-width:750px;
+
+margin:auto;
+
+}
+
+/*==================================
+ Question Card
+==================================*/
+
+#questionDetails{
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+#questionDetails:hover{
+
+transform:translateY(-3px);
+
+}
+
+/*==================================
+ Section Heading
+==================================*/
+
+.section-title{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-size:22px;
+
+font-weight:700;
+
+margin-bottom:18px;
+
+color:#0F172A;
+
+}
+
+/*==================================
+ Answer Box
+==================================*/
+
+.answer-box{
+
+background:#F8FAFC;
+
+border-left:6px solid #2563EB;
+
+padding:22px;
+
+border-radius:12px;
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#334155;
+
+white-space:pre-line;
+
+}
+
+/*==================================
+ SQL Example
+==================================*/
+
+.sql-box{
+
+background:#0F172A;
+
+color:#E2E8F0;
+
+padding:22px;
+
+border-radius:14px;
+
+font-size:16px;
+
+overflow:auto;
+
+font-family:Consolas,monospace;
+
+}
+
+/*==================================
+ Interview Tip
+==================================*/
+
+.tip-box{
+
+background:#FEF3C7;
+
+border-left:6px solid #F59E0B;
+
+padding:20px;
+
+border-radius:12px;
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+/*==================================
+ Related Topics
+==================================*/
+
+#relatedTopics{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+#relatedTopics .badge{
+
+padding:10px 18px;
+
+font-size:14px;
+
+border-radius:30px;
+
+background:#2563EB;
+
+}
+
+/*==================================
+ Horizontal Line
+==================================*/
+
+hr{
+
+margin:35px 0;
+
+opacity:.15;
+
+}
+
+/*==================================
+ Previous Next Buttons
+==================================*/
+
+#prevQuestion,
+#nextQuestion{
+
+padding:12px 30px;
+
+font-size:16px;
+
+font-weight:600;
+
+border-radius:12px;
+
+}
+
+/*==================================
+ Dropdown
+==================================*/
+
+#questionSelect{
+
+padding:15px;
+
+font-size:17px;
+
+border-radius:12px;
+
+}
+
+/*==================================
+ Footer
+==================================*/
+
+footer{
+
+background:#fff;
+
+}
