@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI SQL Assistant | Learn SQL with AI</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/sql.css">
+
+    <style>
+        :root {
+            --bs-body-font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --bs-primary: #0d6efd;
+            --bs-primary-rgb: 13, 110, 253;
+            --card-radius: 1rem;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Glass & Elevation Utilities */
+        .glass-header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .hero-section {
+            background: radial-gradient(100% 100% at 50% 0%, rgba(13, 110, 253, 0.05) 0%, rgba(248, 250, 252, 0) 100%);
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+        }
+
+        /* Privacy Disclaimer */
+        .privacy-disclaimer-custom {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 0.75rem;
+            padding: 0.875rem 1.25rem;
+            max-width: 800px;
+            margin: 1.5rem auto 0 auto;
+        }
+
+        /* Modernized Search Box Container */
+        .search-container-box {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 1.25rem;
+            box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.01);
+            transition: all 0.25s ease;
+        }
+
+        .search-container-box:focus-within {
+            border-color: #93c5fd;
+            box-shadow: 0 20px 25px -5px rgba(13, 110, 253, 0.1), 0 8px 10px -6px rgba(13, 110, 253, 0.04);
+        }
+
+        .search-textarea {
+            resize: none;
+            border: none !important;
+            box-shadow: none !important;
+            font-size: 1rem;
+            color: #334155;
+            background: transparent;
+        }
+
+        .quick-chip {
+            background-color: #f1f5f9;
+            color: #475569;
+            border: 1px solid #e2e8f0;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            padding: 0.35rem 0.75rem;
+            border-radius: 50rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .quick-chip:hover {
+            background-color: #0d6efd;
+            color: #ffffff;
+            border-color: #0d6efd;
+        }
+
+        /* Upgraded Output Cards */
+        .sql-card-modern {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--card-radius);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sql-card-modern:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.02);
+        }
+
+        .sql-card-header {
+            padding: 1rem 1.25rem;
+            background: #ffffff;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .sql-card-body {
+            padding: 1.25rem;
+            flex-grow: 1;
+        }
+
+        /* Pre Code Blocks */
+        pre code-block, pre {
+            font-family: 'JetBrains Mono', monospace;
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin: 0;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-size: 0.875rem;
+        }
+
+        .copy-btn-custom {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.35rem 0.75rem;
+            border-radius: 0.5rem;
+        }
+
+        /* Custom Badge System */
+        .badge-pill-soft {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.025em;
+            padding: 0.35rem 0.75rem;
+            border-radius: 50rem;
+        }
+
+        /* Footer Aesthetics */
+        .footer-modern {
+            background: #ffffff;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===============================
+            NAVBAR
+    ================================ -->
+    <nav class="navbar navbar-expand-lg glass-header sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+                <span class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 d-inline-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
+                    <i class="fa-solid fa-database fs-6"></i>
+                </span>
+                <span class="fs-5 tracking-tight">AI SQL Assistant</span>
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto gap-lg-2 fw-medium">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Complete SQL Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interview.html">Interview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Data Privacy Alert (Centered) -->
+<div class="container">
+    <div class="privacy-disclaimer-custom alert-dismissible fade show text-center" role="alert">
+        <div class="d-flex flex-column align-items-center justify-content-center gap-2">
+            <!-- Icon & Header centered together -->
+            <div class="d-flex align-items-center justify-content-center gap-2">
+                <i class="fa-solid fa-shield-halved text-primary fs-5"></i>
+                <h6 class="fw-bold mb-0 text-primary-emphasis">Data Privacy & Device Safety</h6>
+            </div>
+            <!-- Body text centered -->
+            <p class="mb-0 small text-secondary mx-auto" style="line-height: 1.5; max-width: 650px;">
+                This platform operates entirely on the queries you provide. We <strong>do not access or request permission</strong> for your camera, microphone, device location, or personal files. Your hardware and private media remain completely isolated and secure.
+            </p>
+        </div>
+    </div>
+</div>
+    <!-- ===============================
+            HERO & SEARCH SECTION
+    ================================ -->
+    <section class="hero hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-8">
+
+                    <!-- Main Heading -->
+                    <h1 class="display-5 fw-bold text-slate-900 tracking-tight mb-3">
+                        AI SQL Assistant
+                    </h1>
+
+                    <p class="text-muted fw-medium mb-3">
+                        Developed with ❤️ by <span class="text-dark fw-semibold">Sunil Kumar</span>
+                    </p>
+
+                    <p class="hero-subtitle text-secondary fs-6 mb-4 mx-auto" style="max-width: 640px;">
+                        Ask SQL questions in plain English and instantly generate 
+                        SQL queries with explanations, sample data, business scenarios, and interview preparation.
+                    </p>
+
+                    <!-- Interactive Search Box Component -->
+                    <div class="search-container-box p-3 p-md-4 text-start mb-4">
+                        <div class="d-flex align-items-start gap-3 mb-2">
+                            <i class="fa-solid fa-wand-magic-sparkles text-primary fs-5 mt-2"></i>
+                            <textarea 
+                                id="question"
+                                class="form-control search-textarea p-0"
+                                rows="3"
+                                autocomplete="off"
+                                placeholder="Example: Show employees earning more than 50000, find top 10 customers by sales, or calculate monthly revenue..."></textarea>
+                        </div>
+
+                        <!-- Interactive Chip Quick Suggestions & Action Button -->
+                        <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 pt-3 border-top border-light-subtle">
+                            <div class="d-flex flex-wrap align-items-center gap-2">
+                                <span class="text-uppercase text-muted fw-bold me-1" style="font-size: 0.7rem; letter-spacing: 0.05em;">Try Asking:</span>
+                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Show employees earning more than 50000'">High Earners</button>
+                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Find top 10 customers by sales'">Top Customers</button>
+                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Calculate monthly revenue'">Monthly Revenue</button>
+                            </div>
+
+                            <button id="generateBtn" class="btn btn-primary btn-lg rounded-pill px-4 py-2 fs-6 fw-semibold d-inline-flex align-items-center justify-content-center gap-2 shadow-sm ms-auto">
+                                <i class="fa-solid fa-bolt fs-6"></i>
+                                Generate SQL
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Feature Tags -->
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <span class="badge badge-pill-soft bg-success-subtle text-success border border-success-subtle">SELECT</span>
+                        <span class="badge badge-pill-soft bg-info-subtle text-info border border-info-subtle">JOIN</span>
+                        <span class="badge badge-pill-soft bg-warning-subtle text-warning-emphasis border border-warning-subtle">GROUP BY</span>
+                        <span class="badge badge-pill-soft bg-danger-subtle text-danger border border-danger-subtle"><i class="fa-solid fa-sparkles me-1"></i>AI Powered</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================
+            SEARCH RESULTS CONTAINER
+    ================================ -->
+    <div class="container">
+        <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <!-- ===============================
+            RESULT CARDS GRID
+    ================================ -->
+    <section class="container my-5">
+        <div class="row g-4">
+
+            <!-- SQL Query Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-code text-primary"></i>
+                            <span>Generated SQL</span>
+                        </div>
+                        <button id="copyCodeBtn" class="btn btn-outline-secondary btn-sm copy-btn-custom d-flex align-items-center gap-1" onclick="copySQL()">
+                            <i class="fa-solid fa-copy"></i> Copy SQL
+                        </button>
+                    </div>
+                    <div class="sql-card-body p-0">
+                        <pre id="sqlBox" class="rounded-0 border-0 mb-0">Your SQL query will appear here...</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Explanation Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-circle-info text-info"></i>
+                            <span>Explanation</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <p id="explanation" class="text-secondary mb-0">Waiting...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breakdown Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-layer-group text-warning"></i>
+                            <span>Query Breakdown</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <div id="breakdown" class="text-secondary">Waiting...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Use Case Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-briefcase text-success"></i>
+                            <span>Business Use Case</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <p id="businessCase" class="text-secondary mb-0">Waiting...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Data Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-table text-primary"></i>
+                            <span>Sample Data</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body overflow-auto">
+                        <div id="sampleTable" class="table-responsive">Waiting...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expected Output Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-chart-simple text-purple"></i>
+                            <span>Expected Output</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body overflow-auto">
+                        <div id="outputTable" class="table-responsive">Waiting...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optimization Tips Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-lightbulb text-warning"></i>
+                            <span>Optimization Tips</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <ul id="tipsList" class="mb-0 text-secondary ps-3">
+                            <li>Waiting...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Common Errors Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-bug text-danger"></i>
+                            <span>Common Errors</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <ul id="errorList" class="mb-0 text-secondary ps-3">
+                            <li>Waiting...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alternative Query Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-code-branch text-secondary"></i>
+                            <span>Alternative Query</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body p-0">
+                        <pre id="alternativeSQL" class="rounded-0 border-0 mb-0">Waiting...</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interview Questions Card -->
+            <div class="col-lg-6">
+                <div class="sql-card-modern">
+                    <div class="sql-card-header">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-user-graduate text-info"></i>
+                            <span>Interview Questions</span>
+                        </div>
+                    </div>
+                    <div class="sql-card-body">
+                        <ul id="interviewQuestions" class="mb-0 text-secondary ps-3">
+                            <li>Waiting...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===============================
+            FOOTER & SUPPORT
+    ================================ -->
+    <footer class="footer-modern">
+        <div class="container text-center">
+            <div class="mb-4">
+                <h5 class="fw-bold text-slate-900 mb-1">Made with ❤️ for SQL Learners</h5>
+                <p class="text-secondary small mb-0">Learn SQL. Practice SQL. Build Your Career.</p>
+                <small class="text-muted">Developed by Sunil Kumar</small>
+            </div>
+
+            <!-- Direct Feedback Widget -->
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="p-3 bg-light rounded-4 border">
+                        <div class="text-muted small mb-2">
+                            Have suggestions? Email us at 
+                            <a href="mailto:sksunil19201@gmail.com" class="text-primary fw-semibold text-decoration-none">sksunil19201@gmail.com</a> 
+                            or send feedback below:
+                        </div>
+                        <form id="supportForm" class="d-flex gap-2 align-items-center">
+                            <input type="text" class="form-control form-control-sm border-light-subtle rounded-3" placeholder="Share your suggestions or issues..." required>
+                            <button type="submit" class="btn btn-primary btn-sm text-nowrap rounded-3 px-3">
+                                <i class="fa-solid fa-paper-plane me-1"></i> Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Project Data & Logic Scripts (Untouched) -->
+    <script src="js/data/sqlData.js"></script>
+    <script src="js/data/keywords.js"></script>
+    <script src="js/data/sampleData.js"></script>
+    <script src="js/data/businessCases.js"></script>
+    <script src="js/data/optimizationTips.js"></script>
+    <script src="js/data/sqlErrors.js"></script>
+    <script src="js/data/interviewData.js"></script>
+    <script src="js/data/quizData.js"></script>
+    <script src="js/data/learningPath.js"></script>
+
+    <script src="js/sqlEngine.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
