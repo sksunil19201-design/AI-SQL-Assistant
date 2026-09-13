@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | AI SQL Assistant</title>
+
+    <meta name="description"
+        content="Read the Privacy Policy of AI SQL Assistant and learn how information is collected, used, protected, and managed when using the platform.">
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Font Awesome 6.7 -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/sql.css">
+
+    <style>
+
+        :root {
+            --bs-body-font-family: 'Plus Jakarta Sans',
+                -apple-system,
+                BlinkMacSystemFont,
+                sans-serif;
+
+            --bs-primary: #0d6efd;
+            --bs-primary-rgb: 13, 110, 253;
+
+            --card-radius: 1rem;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* ===============================
+           HEADER
+        ================================ */
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        /* ===============================
+           HERO
+        ================================ */
+
+        .privacy-hero {
+            background: radial-gradient(
+                100% 100% at 50% 0%,
+                rgba(13, 110, 253, 0.06) 0%,
+                rgba(248, 250, 252, 0) 100%
+            );
+
+            padding-top: 4.5rem;
+            padding-bottom: 4rem;
+        }
+
+        .privacy-icon {
+            width: 64px;
+            height: 64px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 1rem;
+
+            background: rgba(13, 110, 253, 0.1);
+            color: #0d6efd;
+
+            font-size: 1.5rem;
+        }
+
+        /* ===============================
+           CONTENT CARDS
+        ================================ */
+
+        .privacy-card {
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: var(--card-radius);
+
+            box-shadow:
+                0 4px 6px -1px rgba(0, 0, 0, 0.03),
+                0 2px 4px -2px rgba(0, 0, 0, 0.03);
+
+            height: 100%;
+
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+        .privacy-card:hover {
+            transform: translateY(-2px);
+
+            box-shadow:
+                0 10px 15px -3px rgba(0, 0, 0, 0.05),
+                0 4px 6px -4px rgba(0, 0, 0, 0.02);
+        }
+
+        .privacy-card-header {
+            padding: 1.25rem;
+
+            border-bottom: 1px solid #f1f5f9;
+
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .privacy-card-body {
+            padding: 1.5rem;
+        }
+
+        .privacy-card-icon {
+            width: 42px;
+            height: 42px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 0.75rem;
+
+            background: #eff6ff;
+            color: #0d6efd;
+        }
+
+        /* ===============================
+           INFORMATION ITEMS
+        ================================ */
+
+        .privacy-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+
+            padding: 1rem;
+
+            background: #f8fafc;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 0.875rem;
+
+            height: 100%;
+        }
+
+        .privacy-item-icon {
+            width: 40px;
+            height: 40px;
+
+            min-width: 40px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 0.7rem;
+
+            background: #eff6ff;
+            color: #0d6efd;
+        }
+
+        /* ===============================
+           NOTICE CARD
+        ================================ */
+
+        .privacy-notice {
+            background: linear-gradient(
+                135deg,
+                #eff6ff 0%,
+                #ffffff 100%
+            );
+
+            border: 1px solid #bfdbfe;
+
+            border-radius: 1rem;
+
+            padding: 1.75rem;
+        }
+
+        /* ===============================
+           CTA
+        ================================ */
+
+        .privacy-cta {
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 1rem;
+
+            padding: 2rem;
+
+            box-shadow:
+                0 4px 6px -1px rgba(0, 0, 0, 0.03),
+                0 2px 4px -2px rgba(0, 0, 0, 0.03);
+        }
+
+        /* ===============================
+           FOOTER
+        ================================ */
+
+        .footer-modern {
+            background: #ffffff;
+
+            border-top: 1px solid #e2e8f0;
+
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- ===============================
+            NAVBAR
+    ================================ -->
+
+    <nav class="navbar navbar-expand-lg glass-header sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2"
+                href="index.html">
+
+                <span
+                    class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 d-inline-flex align-items-center justify-content-center"
+                    style="width: 36px; height: 36px;">
+
+                    <i class="fa-solid fa-database fs-6"></i>
+
+                </span>
+
+                <span class="fs-5 tracking-tight">
+                    AI SQL Assistant
+                </span>
+
+            </a>
+
+
+            <button
+                class="navbar-toggler border-0 shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbar">
+
+                <ul class="navbar-nav ms-auto gap-lg-2 fw-medium">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">
+                            Complete SQL Course
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="interview.html">
+                            Interview
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ===============================
+            HERO
+    ================================ -->
+
+    <section class="privacy-hero text-center">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="privacy-icon mb-4">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <h1 class="display-5 fw-bold mb-3">
+                        Privacy Policy
+                    </h1>
+
+                    <p class="text-secondary fs-5 mb-2">
+                        Your privacy matters to us.
+                    </p>
+
+                    <p class="text-muted small mb-0">
+                        Last Updated: September 13, 2026
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+            MAIN CONTENT
+    ================================ -->
+
+    <main class="container pb-5">
+
+
+        <!-- ===============================
+                INTRODUCTION
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Introduction
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            Welcome to AI SQL Assistant. This Privacy
+                            Policy explains how information may be
+                            collected, used, stored, and protected when
+                            you access or use our website and learning
+                            services.
+
+                        </p>
+
+                        <p class="text-secondary mb-3">
+
+                            AI SQL Assistant is an educational platform
+                            focused on SQL learning, SQL practice,
+                            business use cases, query explanations,
+                            and interview preparation.
+
+                        </p>
+
+                        <p class="text-secondary mb-0">
+
+                            By using the website, you acknowledge that
+                            you have read and understood this Privacy
+                            Policy.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                INFORMATION WE COLLECT
+        ================================ -->
+
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Information We May Collect
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-4">
+
+                            Depending on how you use the platform,
+                            certain information may be collected or
+                            provided voluntarily.
+
+                        </p>
+
+
+                        <div class="row g-3">
+
+
+                            <div class="col-md-6">
+
+                                <div class="privacy-item">
+
+                                    <div class="privacy-item-icon">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+                                            Account Information
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            If account or authentication
+                                            features are provided, basic
+                                            information such as an email
+                                            address may be processed to
+                                            support account functionality.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-md-6">
+
+                                <div class="privacy-item">
+
+                                    <div class="privacy-item-icon">
+                                        <i class="fa-solid fa-chart-line"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+                                            Usage Information
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            We may receive basic technical
+                                            or usage information needed to
+                                            operate, secure, and improve
+                                            the website.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-md-6">
+
+                                <div class="privacy-item">
+
+                                    <div class="privacy-item-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+                                            SQL Queries & Inputs
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Information entered into SQL
+                                            learning or AI-assisted
+                                            features may be processed to
+                                            provide the requested response.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="col-md-6">
+
+                                <div class="privacy-item">
+
+                                    <div class="privacy-item-icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+                                            Contact Information
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            If you contact us, we may use
+                                            the information you provide to
+                                            respond to your question,
+                                            suggestion, or request.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                HOW WE USE INFORMATION
+        ================================ -->
+
+        <div class="row g-4 mb-5">
+
+
+            <div class="col-lg-6">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            How We Use Information
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary">
+                            Information may be used for purposes such
+                            as operating and maintaining the platform,
+                            providing requested services, improving
+                            learning features, responding to users,
+                            preventing misuse, and maintaining website
+                            security.
+                        </p>
+
+                        <ul class="text-secondary mb-0 ps-3">
+
+                            <li class="mb-2">
+                                Provide and improve website features
+                            </li>
+
+                            <li class="mb-2">
+                                Support learning and practice features
+                            </li>
+
+                            <li class="mb-2">
+                                Respond to questions and feedback
+                            </li>
+
+                            <li class="mb-2">
+                                Maintain website security
+                            </li>
+
+                            <li>
+                                Understand general platform usage
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-6">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            AI-Assisted Features
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            Some features of AI SQL Assistant may use
+                            artificial intelligence or third-party AI
+                            services to process user-provided inputs
+                            and generate educational responses.
+
+                        </p>
+
+                        <p class="text-secondary mb-3">
+
+                            Users should avoid entering confidential,
+                            sensitive, proprietary, financial, personal,
+                            or otherwise restricted information into
+                            AI-assisted features.
+
+                        </p>
+
+                        <p class="text-secondary mb-0">
+
+                            AI-generated SQL should be reviewed, tested,
+                            and validated before being used in any real
+                            database or production environment.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                COOKIES
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-cookie-bite"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Cookies and Similar Technologies
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            The website may use cookies, browser storage,
+                            or similar technologies to support website
+                            functionality, remember preferences, maintain
+                            sessions, or understand general usage.
+
+                        </p>
+
+                        <p class="text-secondary mb-0">
+
+                            You can manage cookie and browser storage
+                            settings through your browser. Disabling
+                            certain technologies may affect some website
+                            functionality.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                THIRD PARTY SERVICES
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Third-Party Services
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            AI SQL Assistant may use third-party services
+                            for hosting, authentication, analytics,
+                            security, AI processing, content delivery,
+                            or other website functionality.
+
+                        </p>
+
+                        <p class="text-secondary mb-0">
+
+                            These third-party providers may process
+                            information according to their own privacy
+                            policies and terms. We recommend reviewing
+                            the privacy policies of any third-party
+                            service you use through the platform.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                DATA SECURITY
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Data Security
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            We take reasonable measures to help protect
+                            information processed through the website
+                            against unauthorized access, misuse, loss,
+                            or alteration.
+
+                        </p>
+
+                        <p class="text-secondary mb-0">
+
+                            However, no internet transmission, website,
+                            application, or electronic storage system can
+                            be guaranteed to be completely secure.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                DATA RETENTION
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Data Retention
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-0">
+
+                            Information may be retained only for as long
+                            as reasonably necessary to provide services,
+                            maintain functionality, comply with applicable
+                            obligations, resolve disputes, enforce
+                            agreements, or protect the platform.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                CHILDREN'S PRIVACY
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-child"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Children's Privacy
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-0">
+
+                            AI SQL Assistant is intended as an educational
+                            resource for learners and professionals. We do
+                            not knowingly seek to collect unnecessary
+                            personal information from children. If you
+                            believe that a child has provided personal
+                            information through the platform, please
+                            contact us so that appropriate action can
+                            be considered.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                EXTERNAL LINKS
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            External Websites
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-0">
+
+                            The website may contain links to external
+                            websites or services. We are not responsible
+                            for the privacy practices, security, or content
+                            of third-party websites. Users should review
+                            the privacy policies of external websites
+                            before providing information to them.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                USER PRIVACY CHOICES
+        ================================ -->
+
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-notice">
+
+                    <div class="d-flex align-items-start gap-3">
+
+                        <div class="privacy-card-icon bg-white">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+
+                        <div>
+
+                            <h2 class="h5 fw-bold mb-2">
+                                Your Privacy Choices
+                            </h2>
+
+                            <p class="text-secondary mb-2">
+
+                                Depending on the information involved
+                                and applicable requirements, you may
+                                contact us regarding questions about
+                                information associated with your use
+                                of the platform.
+
+                            </p>
+
+                            <p class="text-secondary mb-0">
+
+                                We will review reasonable privacy-related
+                                requests and respond where appropriate.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                POLICY CHANGES
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-card">
+
+                    <div class="privacy-card-header">
+
+                        <div class="privacy-card-icon">
+                            <i class="fa-solid fa-file-pen"></i>
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+                            Changes to This Privacy Policy
+                        </h2>
+
+                    </div>
+
+
+                    <div class="privacy-card-body">
+
+                        <p class="text-secondary mb-0">
+
+                            We may update this Privacy Policy from time
+                            to time to reflect changes in the website,
+                            services, technology, or applicable
+                            requirements.
+
+                            Any updated version may be posted on this
+                            page with a revised "Last Updated" date.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                CONTACT CTA
+        ================================ -->
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <div class="privacy-cta text-center">
+
+                    <div class="mb-3">
+
+                        <i class="fa-solid fa-envelope text-primary fs-3"></i>
+
+                    </div>
+
+                    <h2 class="h5 fw-bold mb-2">
+                        Questions About Privacy?
+                    </h2>
+
+                    <p class="text-secondary mb-3">
+
+                        If you have questions, suggestions, or concerns
+                        regarding this Privacy Policy, you can contact us.
+
+                    </p>
+
+                    <a href="mailto:sqlaiassistant@gmail.com"
+                        class="btn btn-primary rounded-pill px-4">
+
+                        <i class="fa-solid fa-paper-plane me-2"></i>
+
+                        Contact Us
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ===============================
+            FOOTER
+    ================================ -->
+
+    <footer class="footer-modern">
+
+        <div class="container text-center">
+
+            <div class="mb-4">
+
+                <h5 class="fw-bold mb-1">
+                    Made with ❤️ for SQL Learners
+                </h5>
+
+                <p class="text-secondary small mb-1">
+                    Learn SQL. Practice SQL. Build Your Career.
+                </p>
+
+                <small class="text-muted">
+                    AI SQL Assistant
+                </small>
+
+            </div>
+
+
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
+
+                <a href="index.html"
+                    class="text-secondary text-decoration-none small">
+                    Home
+                </a>
+
+                <a href="about.html"
+                    class="text-secondary text-decoration-none small">
+                    About Us
+                </a>
+
+                <a href="contact.html"
+                    class="text-secondary text-decoration-none small">
+                    Contact Us
+                </a>
+
+                <a href="privacy-policy.html"
+                    class="text-secondary text-decoration-none small">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html"
+                    class="text-secondary text-decoration-none small">
+                    Terms & Conditions
+                </a>
+
+                <a href="disclaimer.html"
+                    class="text-secondary text-decoration-none small">
+                    Disclaimer
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <small class="text-muted">
+
+                    © <span id="currentYear"></span>
+                    AI SQL Assistant. All rights reserved.
+
+                </small>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Bootstrap 5.3 JS -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- Current Year -->
+
+    <script>
+
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+    </script>
+
+
+</body>
+
+</html>
