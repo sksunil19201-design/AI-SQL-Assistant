@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | AI SQL Assistant</title>
+
+    <meta name="description"
+        content="Learn about AI SQL Assistant, an educational platform designed to help learners understand SQL, practice SQL queries, explore business use cases, and prepare for SQL interviews.">
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome 6.7 -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/sql.css">
+
+    <style>
+
+        :root {
+            --bs-body-font-family: 'Plus Jakarta Sans',
+                -apple-system,
+                BlinkMacSystemFont,
+                sans-serif;
+
+            --bs-primary: #0d6efd;
+            --bs-primary-rgb: 13, 110, 253;
+
+            --card-radius: 1rem;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* ===============================
+           HEADER
+        ================================ */
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        /* ===============================
+           HERO
+        ================================ */
+
+        .about-hero {
+            background: radial-gradient(
+                100% 100% at 50% 0%,
+                rgba(13, 110, 253, 0.06) 0%,
+                rgba(248, 250, 252, 0) 100%
+            );
+
+            padding-top: 4.5rem;
+            padding-bottom: 4rem;
+        }
+
+        .about-icon {
+            width: 64px;
+            height: 64px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 1rem;
+
+            background: rgba(13, 110, 253, 0.1);
+            color: #0d6efd;
+
+            font-size: 1.5rem;
+        }
+
+        /* ===============================
+           CONTENT CARDS
+        ================================ */
+
+        .about-card {
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: var(--card-radius);
+
+            box-shadow:
+                0 4px 6px -1px rgba(0, 0, 0, 0.03),
+                0 2px 4px -2px rgba(0, 0, 0, 0.03);
+
+            height: 100%;
+
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-2px);
+
+            box-shadow:
+                0 10px 15px -3px rgba(0, 0, 0, 0.05),
+                0 4px 6px -4px rgba(0, 0, 0, 0.02);
+        }
+
+        .about-card-header {
+            padding: 1.25rem;
+
+            border-bottom: 1px solid #f1f5f9;
+
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .about-card-body {
+            padding: 1.5rem;
+        }
+
+        .about-card-icon {
+            width: 42px;
+            height: 42px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 0.75rem;
+
+            background: #eff6ff;
+            color: #0d6efd;
+        }
+
+        /* ===============================
+           FEATURE ITEMS
+        ================================ */
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+
+            padding: 1rem;
+
+            background: #f8fafc;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 0.875rem;
+
+            height: 100%;
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+
+            min-width: 40px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 0.7rem;
+
+            background: #eff6ff;
+            color: #0d6efd;
+        }
+
+        /* ===============================
+           OWNER CARD
+        ================================ */
+
+        .owner-card {
+            background: linear-gradient(
+                135deg,
+                #eff6ff 0%,
+                #ffffff 100%
+            );
+
+            border: 1px solid #bfdbfe;
+
+            border-radius: 1rem;
+
+            padding: 1.75rem;
+        }
+
+        /* ===============================
+           CTA
+        ================================ */
+
+        .about-cta {
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 1rem;
+
+            padding: 2rem;
+
+            box-shadow:
+                0 4px 6px -1px rgba(0, 0, 0, 0.03),
+                0 2px 4px -2px rgba(0, 0, 0, 0.03);
+        }
+
+        /* ===============================
+           FOOTER
+        ================================ */
+
+        .footer-modern {
+            background: #ffffff;
+
+            border-top: 1px solid #e2e8f0;
+
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ===============================
+            NAVBAR
+    ================================ -->
+
+    <nav class="navbar navbar-expand-lg glass-header sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2"
+                href="index.html">
+
+                <span
+                    class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 d-inline-flex align-items-center justify-content-center"
+                    style="width: 36px; height: 36px;">
+
+                    <i class="fa-solid fa-database fs-6"></i>
+
+                </span>
+
+                <span class="fs-5 tracking-tight">
+                    AI SQL Assistant
+                </span>
+
+            </a>
+
+
+            <button
+                class="navbar-toggler border-0 shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbar">
+
+                <ul class="navbar-nav ms-auto gap-lg-2 fw-medium">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="index.html">
+                            Home
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="learn.html">
+                            Complete SQL Course
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="interview.html">
+                            Interview
+                        </a>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active text-primary"
+                            href="about.html">
+                            About
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ===============================
+            HERO
+    ================================ -->
+
+    <section class="about-hero text-center">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+
+                    <div class="about-icon mb-4">
+
+                        <i class="fa-solid fa-database"></i>
+
+                    </div>
+
+
+                    <h1 class="display-5 fw-bold mb-3">
+
+                        About AI SQL Assistant
+
+                    </h1>
+
+
+                    <p class="text-secondary fs-5 mb-0">
+
+                        Learn SQL, practice SQL, understand queries,
+                        and prepare for your data career with practical
+                        learning resources and AI-assisted guidance.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+            MAIN CONTENT
+    ================================ -->
+
+    <main class="container pb-5">
+
+
+        <!-- ===============================
+                INTRODUCTION
+        ================================ -->
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-lg-10">
+
+                <div class="about-card">
+
+                    <div class="about-card-header">
+
+                        <div class="about-card-icon">
+
+                            <i class="fa-solid fa-circle-info"></i>
+
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+
+                            What is AI SQL Assistant?
+
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            AI SQL Assistant is an educational platform
+                            designed to help learners understand SQL
+                            through practical examples, explanations,
+                            practice questions, business scenarios,
+                            and interview preparation.
+
+                        </p>
+
+
+                        <p class="text-secondary mb-3">
+
+                            The platform allows users to describe SQL
+                            requirements in plain English and explore
+                            possible SQL queries along with explanations
+                            and supporting learning information.
+
+                        </p>
+
+
+                        <p class="text-secondary mb-0">
+
+                            Our goal is to make SQL learning more
+                            practical, understandable, and accessible
+                            for students, beginners, professionals,
+                            analysts, and anyone interested in working
+                            with data.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                WHAT WE OFFER
+        ================================ -->
+
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-lg-10">
+
+                <div class="about-card">
+
+                    <div class="about-card-header">
+
+                        <div class="about-card-icon">
+
+                            <i class="fa-solid fa-layer-group"></i>
+
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+
+                            What You Can Learn
+
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-card-body">
+
+                        <div class="row g-3">
+
+
+                            <!-- SQL Learning -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-book-open"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            SQL Learning
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Learn SQL concepts from
+                                            fundamentals to practical
+                                            query writing.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- AI SQL Assistance -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            AI-Assisted SQL
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Describe a requirement in
+                                            plain English and explore
+                                            SQL query suggestions.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Practice -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-code"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            SQL Practice
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Practice SQL concepts through
+                                            examples, scenarios, and
+                                            hands-on questions.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Business Cases -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-briefcase"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            Business Use Cases
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Understand how SQL can be used
+                                            to solve practical business
+                                            and data-analysis problems.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Interview -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-user-graduate"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            Interview Preparation
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Prepare for SQL interviews with
+                                            interview questions and
+                                            practical explanations.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Optimization -->
+
+                            <div class="col-md-6">
+
+                                <div class="feature-item">
+
+                                    <div class="feature-icon">
+
+                                        <i class="fa-solid fa-gauge-high"></i>
+
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="h6 fw-bold mb-1">
+
+                                            Query Optimization
+
+                                        </h3>
+
+                                        <p class="text-secondary small mb-0">
+
+                                            Explore common optimization
+                                            techniques and better ways
+                                            to approach SQL queries.
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                WHO IS IT FOR
+        ================================ -->
+
+        <div class="row g-4 mb-5">
+
+
+            <div class="col-lg-6">
+
+                <div class="about-card">
+
+                    <div class="about-card-header">
+
+                        <div class="about-card-icon">
+
+                            <i class="fa-solid fa-users"></i>
+
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+
+                            Who Is It For?
+
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-card-body">
+
+                        <p class="text-secondary">
+
+                            AI SQL Assistant is intended for people
+                            who want to learn, practice, or improve
+                            their SQL skills.
+
+                        </p>
+
+
+                        <ul class="text-secondary mb-0 ps-3">
+
+                            <li class="mb-2">
+                                SQL beginners
+                            </li>
+
+                            <li class="mb-2">
+                                Students and learners
+                            </li>
+
+                            <li class="mb-2">
+                                Data analysts
+                            </li>
+
+                            <li class="mb-2">
+                                Business analysts
+                            </li>
+
+                            <li class="mb-2">
+                                Developers
+                            </li>
+
+                            <li>
+                                SQL interview candidates
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-6">
+
+                <div class="about-card">
+
+                    <div class="about-card-header">
+
+                        <div class="about-card-icon">
+
+                            <i class="fa-solid fa-bullseye"></i>
+
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+
+                            Our Approach
+
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            We focus on practical SQL learning rather
+                            than only theoretical definitions.
+
+                        </p>
+
+
+                        <p class="text-secondary mb-3">
+
+                            Examples, business scenarios, query
+                            explanations, sample data, common errors,
+                            and interview questions are combined to
+                            help learners connect SQL concepts with
+                            real-world data problems.
+
+                        </p>
+
+
+                        <p class="text-secondary mb-0">
+
+                            AI assistance is provided as a learning
+                            aid, while users are encouraged to review,
+                            understand, test, and validate generated
+                            queries before using them in real systems.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                OWNERSHIP
+        ================================ -->
+
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-lg-10">
+
+                <div class="owner-card">
+
+                    <div class="d-flex align-items-start gap-3">
+
+                        <div class="about-card-icon bg-white">
+
+                            <i class="fa-solid fa-building"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h2 class="h5 fw-bold mb-2">
+
+                                About the Website
+
+                            </h2>
+
+
+                            <p class="text-secondary mb-2">
+
+                                AI SQL Assistant is owned by
+                                <strong>Sarita Madheshiya</strong>.
+
+                            </p>
+
+
+                            <p class="text-secondary mb-0">
+
+                                The platform is developed and maintained
+                                by its core development team with the
+                                goal of providing useful SQL learning
+                                and practice resources.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                EDUCATIONAL PURPOSE
+        ================================ -->
+
+        <div class="row justify-content-center mb-5">
+
+            <div class="col-lg-10">
+
+                <div class="about-card">
+
+                    <div class="about-card-header">
+
+                        <div class="about-card-icon">
+
+                            <i class="fa-solid fa-graduation-cap"></i>
+
+                        </div>
+
+                        <h2 class="h5 fw-bold mb-0">
+
+                            Educational Purpose
+
+                        </h2>
+
+                    </div>
+
+
+                    <div class="about-card-body">
+
+                        <p class="text-secondary mb-3">
+
+                            The information and AI-generated SQL
+                            suggestions provided through this platform
+                            are intended primarily for educational,
+                            learning, and practice purposes.
+
+                        </p>
+
+
+                        <p class="text-secondary mb-0">
+
+                            SQL syntax and database behavior can vary
+                            between database systems such as MySQL,
+                            PostgreSQL, SQL Server, Oracle, and others.
+                            Users should test and validate queries
+                            according to their specific database
+                            environment before using them in production.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===============================
+                CONTACT CTA
+        ================================ -->
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <div class="about-cta text-center">
+
+                    <div class="mb-3">
+
+                        <i class="fa-solid fa-envelope text-primary fs-3"></i>
+
+                    </div>
+
+
+                    <h2 class="h5 fw-bold mb-2">
+
+                        Have a Suggestion or Question?
+
+                    </h2>
+
+
+                    <p class="text-secondary mb-3">
+
+                        We welcome suggestions, feedback, and reports
+                        that can help improve AI SQL Assistant.
+
+                    </p>
+
+
+                    <a href="mailto:sqlaiassistant@gmail.com"
+                        class="btn btn-primary rounded-pill px-4">
+
+                        <i class="fa-solid fa-paper-plane me-2"></i>
+
+                        Contact Us
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ===============================
+            FOOTER
+    ================================ -->
+
+    <footer class="footer-modern">
+
+        <div class="container text-center">
+
+            <div class="mb-4">
+
+                <h5 class="fw-bold mb-1">
+
+                    Made with ❤️ for SQL Learners
+
+                </h5>
+
+                <p class="text-secondary small mb-1">
+
+                    Learn SQL. Practice SQL. Build Your Career.
+
+                </p>
+
+                <small class="text-muted">
+
+                    AI SQL Assistant
+
+                </small>
+
+            </div>
+
+
+            <!-- Footer Links -->
+
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
+
+                <a href="index.html"
+                    class="text-secondary text-decoration-none small">
+
+                    Home
+
+                </a>
+
+
+                <a href="about.html"
+                    class="text-secondary text-decoration-none small">
+
+                    About Us
+
+                </a>
+
+
+                <a href="contact.html"
+                    class="text-secondary text-decoration-none small">
+
+                    Contact Us
+
+                </a>
+
+
+                <a href="privacy-policy.html"
+                    class="text-secondary text-decoration-none small">
+
+                    Privacy Policy
+
+                </a>
+
+
+                <a href="terms.html"
+                    class="text-secondary text-decoration-none small">
+
+                    Terms & Conditions
+
+                </a>
+
+
+                <a href="disclaimer.html"
+                    class="text-secondary text-decoration-none small">
+
+                    Disclaimer
+
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <small class="text-muted">
+
+                    © <span id="currentYear"></span>
+                    AI SQL Assistant. All rights reserved.
+
+                </small>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- Bootstrap 5.3 JS -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- Current Year -->
+
+    <script>
+
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+    </script>
+
+
+</body>
+
+</html>
