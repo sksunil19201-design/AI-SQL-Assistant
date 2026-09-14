@@ -873,16 +873,10 @@ textarea::placeholder{
 ==================================*/
 
 .table-responsive{
-
-.table-responsive {
     border-radius: 12px;
     border: 1px solid var(--border);
     overflow-x: auto; /* Fix: Allow horizontal scrolling */
     max-width: 100%;   /* Fix: Keep scrollbar contained inside the card */
-}
-
-
-
 }
 
 .table{
@@ -4104,13 +4098,10 @@ min-height:100vh;
 }
 
 .table-responsive{
-
-.table-responsive {
     border-radius: 12px;
     border: 1px solid var(--border);
     overflow-x: auto;
     max-width: 100%;
-}
 }
 
 /*==================================
