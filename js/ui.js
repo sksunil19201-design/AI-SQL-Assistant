@@ -9,177 +9,185 @@
 // Show SQL Result
 //==================================
 
-
 function showResult(data){
 
+    if(!data){
+
+        return;
+
+    }
 
 
-if(!data){
+    //==================================
+    // SQL Generation Animation
+    //==================================
 
-return;
+    const sqlBox =
+    document.getElementById("sqlBox");
+
+
+    if(sqlBox){
+
+        const sql =
+        data.sql ||
+        "No SQL query generated";
+
+
+        sqlBox.textContent =
+        "Generating SQL...";
+
+
+        setTimeout(function(){
+
+            sqlBox.textContent = "";
+
+            let index = 0;
+
+            const speed = 25;
+
+
+            function typeSQL(){
+
+                if(index < sql.length){
+
+                    sqlBox.textContent +=
+                    sql.charAt(index);
+
+                    index++;
+
+                    setTimeout(
+                        typeSQL,
+                        speed
+                    );
+
+                }
+
+            }
+
+
+            typeSQL();
+
+
+        },400);
+
+    }
+
+
+    //==================================
+    // Explanation
+    //==================================
+
+    document.getElementById("explanation").innerHTML =
+
+    data.explanation ||
+
+    "Waiting...";
+
+
+    //==================================
+    // Breakdown
+    //==================================
+
+    document.getElementById("breakdown").innerHTML =
+
+    data.breakdown ||
+
+    "Waiting...";
+
+
+    //==================================
+    // Business Case
+    //==================================
+
+    document.getElementById("businessCase").innerHTML =
+
+    data.businessCase ||
+
+    "Waiting...";
+
+
+    //==================================
+    // Sample Data Table
+    //==================================
+
+    renderTable(
+
+        "sampleTable",
+
+        data.sampleData
+
+    );
+
+
+    //==================================
+    // Output Table
+    //==================================
+
+    renderTable(
+
+        "outputTable",
+
+        data.output
+
+    );
+
+
+    //==================================
+    // Tips
+    //==================================
+
+    renderList(
+
+        "tipsList",
+
+        data.tips,
+
+        "✔"
+
+    );
+
+
+    //==================================
+    // Errors
+    //==================================
+
+    renderList(
+
+        "errorList",
+
+        data.errors,
+
+        "✖"
+
+    );
+
+
+    //==================================
+    // Alternative SQL
+    //==================================
+
+    document.getElementById("alternativeSQL").textContent =
+
+    data.alternativeSQL ||
+
+    "No alternative query available";
+
+
+    //==================================
+    // Interview Questions
+    //==================================
+
+    renderList(
+
+        "interviewQuestions",
+
+        data.interview,
+
+        "?"
+
+    );
 
 }
-
-
-
-
-// SQL
-
-document.getElementById("sqlBox").textContent =
-
-data.sql ||
-
-"No SQL query generated";
-
-
-
-
-
-
-// Explanation
-
-document.getElementById("explanation").innerHTML =
-
-data.explanation ||
-
-"Waiting...";
-
-
-
-
-
-
-
-// Breakdown
-
-document.getElementById("breakdown").innerHTML =
-
-data.breakdown ||
-
-"Waiting...";
-
-
-
-
-
-
-
-// Business Case
-
-document.getElementById("businessCase").innerHTML =
-
-data.businessCase ||
-
-"Waiting...";
-
-
-
-
-
-
-
-// Sample Data Table
-
-renderTable(
-
-"sampleTable",
-
-data.sampleData
-
-);
-
-
-
-
-
-
-
-// Output Table
-
-renderTable(
-
-"outputTable",
-
-data.output
-
-);
-
-
-
-
-
-
-
-// Tips
-
-renderList(
-
-"tipsList",
-
-data.tips,
-
-"✔"
-
-);
-
-
-
-
-
-
-
-// Errors
-
-renderList(
-
-"errorList",
-
-data.errors,
-
-"✖"
-
-);
-
-
-
-
-
-
-
-// Alternative SQL
-
-document.getElementById("alternativeSQL").textContent =
-
-data.alternativeSQL ||
-
-"No alternative query available";
-
-
-
-
-
-
-
-// Interview Questions
-
-renderList(
-
-"interviewQuestions",
-
-data.interview,
-
-"?"
-
-);
-
-
-
-
-
-
-}
-
-
 
 
 
