@@ -7,7 +7,7 @@
 
     <title>AI SQL Assistant | Learn SQL with AI</title>
 <meta name="description"
-    content="AI SQL Assistant helps you learn SQL, generate SQL queries with AI, understand query logic, practice SQL, prepare for interviews, and explore real-world business use cases.">
+    content="AI SQL Assistant helps you generate SQL queries with AI, learn SQL, understand query logic, practice SQL, prepare for interviews, and solve real-world business problems.">
 
 <meta name="keywords"
     content="AI SQL Assistant, SQL Assistant, learn SQL, SQL with AI, SQL query generator, SQL interview questions, SQL practice, SQL learning">
@@ -23,7 +23,7 @@
     
 <meta property="og:title" content="AI SQL Assistant | Learn SQL with AI">
 <meta property="og:description"
-    content="Learn SQL, generate SQL queries with AI, understand query logic, practice SQL, and prepare for SQL interviews.">
+    content="Generate SQL queries with AI, learn SQL, understand query logic, practice SQL, and prepare for SQL interviews.">
 <meta property="og:url" content="https://aisqlassistant.in/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI SQL Assistant">
@@ -197,7 +197,7 @@
     <!-- ===============================
             NAVBAR
     ================================ -->
-    <nav class="navbar navbar-expand-lg glass-header sticky-top">
+   <nav class="navbar navbar-expand-lg modern-navbar sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="/">
                 <span class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 d-inline-flex align-items-center justify-content-center" style="width: 36px; height: 36px;">
@@ -233,26 +233,11 @@
         </div>
     </nav>
 
-<!-- Data Privacy Alert (Centered) -->
-<div class="container">
-    <div class="privacy-disclaimer-custom alert-dismissible fade show text-center" role="alert">
-        <div class="d-flex flex-column align-items-center justify-content-center gap-2">
-            <!-- Icon & Header centered together -->
-            <div class="d-flex align-items-center justify-content-center gap-2">
-                <i class="fa-solid fa-shield-halved text-primary fs-5"></i>
-                <h6 class="fw-bold mb-0 text-primary-emphasis">Data Privacy & Device Safety</h6>
-            </div>
-            <!-- Body text centered -->
-            <p class="mb-0 small text-secondary mx-auto" style="line-height: 1.5; max-width: 650px;">
-                This platform operates entirely on the queries you provide. We <strong>do not access or request permission</strong> for your camera, microphone, device location, or personal files. Your hardware and private media remain completely isolated and secure.
-            </p>
-        </div>
-    </div>
-</div>
+
     <!-- ===============================
             HERO & SEARCH SECTION
     ================================ -->
-    <section class="hero hero-section text-center">
+   <section class="hero hero-section modern-hero text-center">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-xl-8">
@@ -270,32 +255,65 @@
                         Ask SQL questions in plain English and instantly generate 
                         SQL queries with explanations, sample data, business scenarios, and interview preparation.
                     </p>
+<!-- Interactive Search Box Component -->
+<div class="search-container-box modern-search-box p-3 p-md-4 text-start mb-4">
 
-                    <!-- Interactive Search Box Component -->
-                    <div class="search-container-box p-3 p-md-4 text-start mb-4">
-                        <div class="d-flex align-items-start gap-3 mb-2">
-                            <i class="fa-solid fa-wand-magic-sparkles text-primary fs-5 mt-2"></i>
-                            <textarea 
-                                id="question"
-                                class="form-control search-textarea p-0"
-                                rows="3"
-                                autocomplete="off"
-                                placeholder="Example: Show employees earning more than 50000, find top 10 customers by sales, or calculate monthly revenue..."></textarea>
-                        </div>
+    <div class="search-box-header d-flex align-items-center justify-content-between mb-3">
 
-                        <!-- Interactive Chip Quick Suggestions & Action Button -->
-                        <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 pt-3 border-top border-light-subtle">
-                            <div class="d-flex flex-wrap align-items-center gap-2">
-                                <span class="text-uppercase text-muted fw-bold me-1" style="font-size: 0.7rem; letter-spacing: 0.05em;">Try Asking:</span>
-                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Show employees earning more than 50000'">High Earners</button>
-                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Find top 10 customers by sales'">Top Customers</button>
-                                <button type="button" class="quick-chip" onclick="document.getElementById('question').value='Calculate monthly revenue'">Monthly Revenue</button>
-                            </div>
+        <div class="d-flex align-items-center gap-2">
+            <div class="search-icon-box">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
 
-                            <button id="generateBtn" class="btn btn-primary btn-lg rounded-pill px-4 py-2 fs-6 fw-semibold d-inline-flex align-items-center justify-content-center gap-2 shadow-sm ms-auto">
+            <div>
+                <h6 class="mb-0 fw-semibold">Ask AI SQL Assistant</h6>
+                <small class="text-muted">
+                    Describe what you want to do with SQL
+                </small>
+            </div>
+        </div>
+
+        <span class="ai-badge">
+            <i class="fa-solid fa-sparkles me-1"></i> AI Powered
+        </span>
+
+    </div>
+
+
+    <div class="search-input-wrapper">
+
+        <textarea
+            id="question"
+            class="form-control search-textarea"
+            rows="3"
+            autocomplete="off"
+             placeholder="Search any SQL task like SELECT, INSERT, UPDATE, DELETE, INDEX, or JOIN. Start typing to get smart suggestions and generate your SQL query instantly."
+        ></textarea>
+
+        <div class="search-input-footer">
+
+            <div class="search-hint">
+                <i class="fa-solid fa-lightbulb"></i>
+                Try: JOIN customers with orders
+            </div>
+
+            <div class="search-shortcut">
+                <span>Enter</span>
+                <small>to search</small>
+            </div>
+  <button id="generateBtn" class="btn btn-primary modern-generate-btn btn-lg rounded-pill px-4 py-2 fs-6 fw-semibold d-inline-flex align-items-center justify-content-center gap-2 shadow-sm ms-auto">
                                 <i class="fa-solid fa-bolt fs-6"></i>
                                 Generate SQL
                             </button>
+        </div>
+
+    </div>
+
+</div>
+
+                       
+
+                            </div>
                         </div>
                     </div>
 
@@ -327,7 +345,7 @@
 
             <!-- SQL Query Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-code text-primary"></i>
@@ -345,7 +363,7 @@
 
             <!-- Explanation Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-circle-info text-info"></i>
@@ -360,7 +378,7 @@
 
             <!-- Breakdown Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-layer-group text-warning"></i>
@@ -375,7 +393,7 @@
 
             <!-- Business Use Case Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-briefcase text-success"></i>
@@ -390,7 +408,7 @@
 
             <!-- Sample Data Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-table text-primary"></i>
@@ -405,7 +423,7 @@
 
             <!-- Expected Output Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-chart-simple text-purple"></i>
@@ -420,7 +438,7 @@
 
             <!-- Optimization Tips Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-lightbulb text-warning"></i>
@@ -437,7 +455,7 @@
 
             <!-- Common Errors Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-bug text-danger"></i>
@@ -454,7 +472,7 @@
 
             <!-- Alternative Query Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-code-branch text-secondary"></i>
@@ -469,7 +487,7 @@
 
             <!-- Interview Questions Card -->
             <div class="col-lg-6">
-                <div class="sql-card-modern">
+                <div class="sql-card-modern modern-result-card">
                     <div class="sql-card-header">
                         <div class="d-flex align-items-center gap-2">
                             <i class="fa-solid fa-user-graduate text-info"></i>
