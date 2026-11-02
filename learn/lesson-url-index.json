@@ -1,0 +1,5826 @@
+[
+  {
+    "moduleId": 1,
+    "lessonId": 1,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "what-is-sql",
+    "title": "1. What is SQL?",
+    "url": "/learn/introduction-to-sql/what-is-sql.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 2,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "what-is-database",
+    "title": "2. What is a Database?",
+    "url": "/learn/introduction-to-sql/what-is-database.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 3,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "relational-database",
+    "title": "3. Relational Database",
+    "url": "/learn/introduction-to-sql/relational-database.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 4,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "database-table",
+    "title": "4. Database Table",
+    "url": "/learn/introduction-to-sql/database-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 5,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "database-row",
+    "title": "5. Database Row",
+    "url": "/learn/introduction-to-sql/database-row.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 6,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "database-column",
+    "title": "6. Database Column",
+    "url": "/learn/introduction-to-sql/database-column.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 7,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-standards",
+    "title": "7. SQL Standards",
+    "url": "/learn/introduction-to-sql/sql-standards.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 8,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-command-categories",
+    "title": "8. SQL Command Categories",
+    "url": "/learn/introduction-to-sql/sql-command-categories.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 9,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "who-uses-sql",
+    "title": "9. Who Uses SQL?",
+    "url": "/learn/introduction-to-sql/who-uses-sql.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 10,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-for-data-analysts",
+    "title": "10. SQL for Data Analysts",
+    "url": "/learn/introduction-to-sql/sql-for-data-analysts.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 11,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "create-database",
+    "title": "11. CREATE DATABASE",
+    "url": "/learn/introduction-to-sql/create-database.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 12,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "select-statement",
+    "title": "12. SELECT Statement",
+    "url": "/learn/introduction-to-sql/select-statement.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 13,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "select-distinct",
+    "title": "13. SELECT DISTINCT",
+    "url": "/learn/introduction-to-sql/select-distinct.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 14,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-alias",
+    "title": "14. SQL Alias",
+    "url": "/learn/introduction-to-sql/sql-alias.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 15,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "where-clause",
+    "title": "15. WHERE Clause",
+    "url": "/learn/introduction-to-sql/where-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 16,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "comparison-operators",
+    "title": "16. Comparison Operators",
+    "url": "/learn/introduction-to-sql/comparison-operators.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 17,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "and-operator",
+    "title": "17. AND Operator",
+    "url": "/learn/introduction-to-sql/and-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 18,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "or-operator",
+    "title": "18. OR Operator",
+    "url": "/learn/introduction-to-sql/or-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 19,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-operator",
+    "title": "19. NOT Operator",
+    "url": "/learn/introduction-to-sql/not-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 20,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by",
+    "title": "20. ORDER BY",
+    "url": "/learn/introduction-to-sql/order-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 21,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "limit",
+    "title": "21. LIMIT",
+    "url": "/learn/introduction-to-sql/limit.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 22,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top",
+    "title": "22. TOP",
+    "url": "/learn/introduction-to-sql/top.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 23,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "fetch-first",
+    "title": "23. FETCH FIRST",
+    "url": "/learn/introduction-to-sql/fetch-first.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 24,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-comments",
+    "title": "24. SQL Comments",
+    "url": "/learn/introduction-to-sql/sql-comments.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 25,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-null-value",
+    "title": "25. SQL NULL Value",
+    "url": "/learn/introduction-to-sql/sql-null-value.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 26,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null",
+    "title": "26. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 27,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null",
+    "title": "27. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 28,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "between-operator",
+    "title": "28. BETWEEN Operator",
+    "url": "/learn/introduction-to-sql/between-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 29,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "in-operator",
+    "title": "29. IN Operator",
+    "url": "/learn/introduction-to-sql/in-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 30,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-operator",
+    "title": "30. LIKE Operator",
+    "url": "/learn/introduction-to-sql/like-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 31,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-wildcards",
+    "title": "31. SQL Wildcards",
+    "url": "/learn/introduction-to-sql/sql-wildcards.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 32,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-string-values",
+    "title": "32. SQL String Values",
+    "url": "/learn/introduction-to-sql/sql-string-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 33,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-numeric-values",
+    "title": "33. SQL Numeric Values",
+    "url": "/learn/introduction-to-sql/sql-numeric-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 34,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-date-values",
+    "title": "34. SQL Date Values",
+    "url": "/learn/introduction-to-sql/sql-date-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 35,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-boolean-values",
+    "title": "35. SQL Boolean Values",
+    "url": "/learn/introduction-to-sql/sql-boolean-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 36,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-expressions",
+    "title": "36. SQL Expressions",
+    "url": "/learn/introduction-to-sql/sql-expressions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 37,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-constants",
+    "title": "37. SQL Constants",
+    "url": "/learn/introduction-to-sql/sql-constants.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 38,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-arithmetic-operators",
+    "title": "38. SQL Arithmetic Operators",
+    "url": "/learn/introduction-to-sql/sql-arithmetic-operators.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 39,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-operator-precedence",
+    "title": "39. SQL Operator Precedence",
+    "url": "/learn/introduction-to-sql/sql-operator-precedence.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 40,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-logical-operators",
+    "title": "40. SQL Logical Operators",
+    "url": "/learn/introduction-to-sql/sql-logical-operators.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 41,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equal-to-operator",
+    "title": "41. Equal To Operator",
+    "url": "/learn/introduction-to-sql/equal-to-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 42,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-equal-operator",
+    "title": "42. Not Equal Operator",
+    "url": "/learn/introduction-to-sql/not-equal-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 43,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-operator",
+    "title": "43. Greater Than Operator",
+    "url": "/learn/introduction-to-sql/greater-than-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 44,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-operator",
+    "title": "44. Less Than Operator",
+    "url": "/learn/introduction-to-sql/less-than-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 45,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-or-equal-to",
+    "title": "45. Greater Than or Equal To",
+    "url": "/learn/introduction-to-sql/greater-than-or-equal-to.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 46,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-or-equal-to",
+    "title": "46. Less Than or Equal To",
+    "url": "/learn/introduction-to-sql/less-than-or-equal-to.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 47,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "and-operator-47",
+    "title": "47. AND Operator",
+    "url": "/learn/introduction-to-sql/and-operator-47.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 48,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "or-operator-48",
+    "title": "48. OR Operator",
+    "url": "/learn/introduction-to-sql/or-operator-48.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 49,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-operator-49",
+    "title": "49. NOT Operator",
+    "url": "/learn/introduction-to-sql/not-operator-49.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 50,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "comparison-operators-50",
+    "title": "50. Comparison Operators",
+    "url": "/learn/introduction-to-sql/comparison-operators-50.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 51,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-concatenation",
+    "title": "51. SQL Concatenation",
+    "url": "/learn/introduction-to-sql/sql-concatenation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 52,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "upper-function",
+    "title": "52. UPPER Function",
+    "url": "/learn/introduction-to-sql/upper-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 53,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lower-function",
+    "title": "53. LOWER Function",
+    "url": "/learn/introduction-to-sql/lower-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 54,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "length-function",
+    "title": "54. LENGTH Function",
+    "url": "/learn/introduction-to-sql/length-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 55,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "trim-function",
+    "title": "55. TRIM Function",
+    "url": "/learn/introduction-to-sql/trim-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 56,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "substring-function",
+    "title": "56. SUBSTRING Function",
+    "url": "/learn/introduction-to-sql/substring-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 57,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "replace-function",
+    "title": "57. REPLACE Function",
+    "url": "/learn/introduction-to-sql/replace-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 58,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "round-function",
+    "title": "58. ROUND Function",
+    "url": "/learn/introduction-to-sql/round-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 59,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "abs-function",
+    "title": "59. ABS Function",
+    "url": "/learn/introduction-to-sql/abs-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 60,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "modulo-operator",
+    "title": "60. Modulo Operator",
+    "url": "/learn/introduction-to-sql/modulo-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 61,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "count-function",
+    "title": "61. COUNT Function",
+    "url": "/learn/introduction-to-sql/count-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 62,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "count-distinct",
+    "title": "62. COUNT DISTINCT",
+    "url": "/learn/introduction-to-sql/count-distinct.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 63,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sum-function",
+    "title": "63. SUM Function",
+    "url": "/learn/introduction-to-sql/sum-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 64,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "avg-function",
+    "title": "64. AVG Function",
+    "url": "/learn/introduction-to-sql/avg-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 65,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "min-function",
+    "title": "65. MIN Function",
+    "url": "/learn/introduction-to-sql/min-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 66,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "max-function",
+    "title": "66. MAX Function",
+    "url": "/learn/introduction-to-sql/max-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 67,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "aggregate-functions",
+    "title": "67. Aggregate Functions",
+    "url": "/learn/introduction-to-sql/aggregate-functions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 68,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-clause",
+    "title": "68. GROUP BY Clause",
+    "url": "/learn/introduction-to-sql/group-by-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 69,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-multiple-columns",
+    "title": "69. GROUP BY Multiple Columns",
+    "url": "/learn/introduction-to-sql/group-by-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 70,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-count",
+    "title": "70. GROUP BY with COUNT",
+    "url": "/learn/introduction-to-sql/group-by-with-count.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 71,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-sum",
+    "title": "71. GROUP BY with SUM",
+    "url": "/learn/introduction-to-sql/group-by-with-sum.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 72,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-avg",
+    "title": "72. GROUP BY with AVG",
+    "url": "/learn/introduction-to-sql/group-by-with-avg.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 73,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-min",
+    "title": "73. GROUP BY with MIN",
+    "url": "/learn/introduction-to-sql/group-by-with-min.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 74,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-max",
+    "title": "74. GROUP BY with MAX",
+    "url": "/learn/introduction-to-sql/group-by-with-max.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 75,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "having-clause",
+    "title": "75. HAVING Clause",
+    "url": "/learn/introduction-to-sql/having-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 76,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "where-vs-having",
+    "title": "76. WHERE vs HAVING",
+    "url": "/learn/introduction-to-sql/where-vs-having.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 77,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-with-group-by",
+    "title": "77. ORDER BY with GROUP BY",
+    "url": "/learn/introduction-to-sql/order-by-with-group-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 78,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-with-group-by",
+    "title": "78. DISTINCT with GROUP BY",
+    "url": "/learn/introduction-to-sql/distinct-with-group-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 79,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-with-multiple-aggregates",
+    "title": "79. GROUP BY with Multiple Aggregates",
+    "url": "/learn/introduction-to-sql/group-by-with-multiple-aggregates.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 80,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-for-business-analysis",
+    "title": "80. GROUP BY for Business Analysis",
+    "url": "/learn/introduction-to-sql/group-by-for-business-analysis.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 81,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-value",
+    "title": "81. NULL Value",
+    "url": "/learn/introduction-to-sql/null-value.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 82,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null-82",
+    "title": "82. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null-82.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 83,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null-83",
+    "title": "83. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null-83.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 84,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-with-count",
+    "title": "84. NULL with COUNT",
+    "url": "/learn/introduction-to-sql/null-with-count.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 85,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function",
+    "title": "85. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 86,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function",
+    "title": "86. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 87,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-in-calculations",
+    "title": "87. NULL in Calculations",
+    "url": "/learn/introduction-to-sql/null-in-calculations.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 88,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-in-where-clause",
+    "title": "88. NULL in WHERE Clause",
+    "url": "/learn/introduction-to-sql/null-in-where-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 89,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-in-group-by",
+    "title": "89. NULL in GROUP BY",
+    "url": "/learn/introduction-to-sql/null-in-group-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 90,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-data-quality-analysis",
+    "title": "90. NULL Data Quality Analysis",
+    "url": "/learn/introduction-to-sql/null-data-quality-analysis.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 91,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-data",
+    "title": "91. String Data",
+    "url": "/learn/introduction-to-sql/string-data.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 92,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "varchar-data-type",
+    "title": "92. VARCHAR Data Type",
+    "url": "/learn/introduction-to-sql/varchar-data-type.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 93,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "char-data-type",
+    "title": "93. CHAR Data Type",
+    "url": "/learn/introduction-to-sql/char-data-type.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 94,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-concatenation",
+    "title": "94. String Concatenation",
+    "url": "/learn/introduction-to-sql/string-concatenation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 95,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "upper-function-95",
+    "title": "95. UPPER Function",
+    "url": "/learn/introduction-to-sql/upper-function-95.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 96,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lower-function-96",
+    "title": "96. LOWER Function",
+    "url": "/learn/introduction-to-sql/lower-function-96.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 97,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "length-function-97",
+    "title": "97. LENGTH Function",
+    "url": "/learn/introduction-to-sql/length-function-97.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 98,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "trim-function-98",
+    "title": "98. TRIM Function",
+    "url": "/learn/introduction-to-sql/trim-function-98.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 99,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "substring-function-99",
+    "title": "99. SUBSTRING Function",
+    "url": "/learn/introduction-to-sql/substring-function-99.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 100,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "replace-function-100",
+    "title": "100. REPLACE Function",
+    "url": "/learn/introduction-to-sql/replace-function-100.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 101,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-function",
+    "title": "101. LEFT Function",
+    "url": "/learn/introduction-to-sql/left-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 102,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-function",
+    "title": "102. RIGHT Function",
+    "url": "/learn/introduction-to-sql/right-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 103,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "charindex-function",
+    "title": "103. CHARINDEX Function",
+    "url": "/learn/introduction-to-sql/charindex-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 104,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "patindex-function",
+    "title": "104. PATINDEX Function",
+    "url": "/learn/introduction-to-sql/patindex-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 105,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-search",
+    "title": "105. String Search",
+    "url": "/learn/introduction-to-sql/string-search.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 106,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-comparison",
+    "title": "106. String Comparison",
+    "url": "/learn/introduction-to-sql/string-comparison.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 107,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "collation",
+    "title": "107. Collation",
+    "url": "/learn/introduction-to-sql/collation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 108,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-data-type",
+    "title": "108. DATE Data Type",
+    "url": "/learn/introduction-to-sql/date-data-type.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 109,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "time-data-type",
+    "title": "109. TIME Data Type",
+    "url": "/learn/introduction-to-sql/time-data-type.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 110,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "datetime",
+    "title": "110. DATETIME",
+    "url": "/learn/introduction-to-sql/datetime.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 111,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-date",
+    "title": "111. Current Date",
+    "url": "/learn/introduction-to-sql/current-date.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 112,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-timestamp",
+    "title": "112. Current Timestamp",
+    "url": "/learn/introduction-to-sql/current-timestamp.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 113,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-extraction",
+    "title": "113. Date Extraction",
+    "url": "/learn/introduction-to-sql/date-extraction.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 114,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "extract-year",
+    "title": "114. Extract Year",
+    "url": "/learn/introduction-to-sql/extract-year.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 115,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "extract-month",
+    "title": "115. Extract Month",
+    "url": "/learn/introduction-to-sql/extract-month.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 116,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "extract-day",
+    "title": "116. Extract Day",
+    "url": "/learn/introduction-to-sql/extract-day.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 117,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-difference",
+    "title": "117. Date Difference",
+    "url": "/learn/introduction-to-sql/date-difference.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 118,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-addition",
+    "title": "118. Date Addition",
+    "url": "/learn/introduction-to-sql/date-addition.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 119,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-subtraction",
+    "title": "119. Date Subtraction",
+    "url": "/learn/introduction-to-sql/date-subtraction.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 120,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-formatting",
+    "title": "120. Date Formatting",
+    "url": "/learn/introduction-to-sql/date-formatting.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 121,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-value-121",
+    "title": "121. NULL Value",
+    "url": "/learn/introduction-to-sql/null-value-121.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 122,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null-122",
+    "title": "122. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null-122.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 123,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null-123",
+    "title": "123. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null-123.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 124,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-124",
+    "title": "124. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-124.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 125,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-125",
+    "title": "125. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-125.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 126,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-handling",
+    "title": "126. NULL Handling",
+    "url": "/learn/introduction-to-sql/null-handling.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 127,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "default-value",
+    "title": "127. DEFAULT Value",
+    "url": "/learn/introduction-to-sql/default-value.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 128,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "check-constraint",
+    "title": "128. CHECK Constraint",
+    "url": "/learn/introduction-to-sql/check-constraint.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 129,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "unique-constraint",
+    "title": "129. UNIQUE Constraint",
+    "url": "/learn/introduction-to-sql/unique-constraint.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 130,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-null-constraint",
+    "title": "130. NOT NULL Constraint",
+    "url": "/learn/introduction-to-sql/not-null-constraint.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 131,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "primary-key",
+    "title": "131. PRIMARY KEY",
+    "url": "/learn/introduction-to-sql/primary-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 132,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "composite-primary-key",
+    "title": "132. Composite Primary Key",
+    "url": "/learn/introduction-to-sql/composite-primary-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 133,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "foreign-key",
+    "title": "133. FOREIGN KEY",
+    "url": "/learn/introduction-to-sql/foreign-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 134,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "referential-integrity",
+    "title": "134. Referential Integrity",
+    "url": "/learn/introduction-to-sql/referential-integrity.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 135,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "unique-key",
+    "title": "135. UNIQUE KEY",
+    "url": "/learn/introduction-to-sql/unique-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 136,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-key",
+    "title": "136. Natural Key",
+    "url": "/learn/introduction-to-sql/natural-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 137,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "surrogate-key",
+    "title": "137. Surrogate Key",
+    "url": "/learn/introduction-to-sql/surrogate-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 138,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "auto-increment",
+    "title": "138. AUTO INCREMENT",
+    "url": "/learn/introduction-to-sql/auto-increment.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 139,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "identity-column",
+    "title": "139. IDENTITY Column",
+    "url": "/learn/introduction-to-sql/identity-column.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 140,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sequence",
+    "title": "140. SEQUENCE",
+    "url": "/learn/introduction-to-sql/sequence.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 131,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "primary-key-131",
+    "title": "131. PRIMARY KEY",
+    "url": "/learn/introduction-to-sql/primary-key-131.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 132,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "composite-primary-key-132",
+    "title": "132. Composite Primary Key",
+    "url": "/learn/introduction-to-sql/composite-primary-key-132.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 133,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "foreign-key-133",
+    "title": "133. FOREIGN KEY",
+    "url": "/learn/introduction-to-sql/foreign-key-133.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 134,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "referential-integrity-134",
+    "title": "134. Referential Integrity",
+    "url": "/learn/introduction-to-sql/referential-integrity-134.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 135,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "unique-key-135",
+    "title": "135. UNIQUE KEY",
+    "url": "/learn/introduction-to-sql/unique-key-135.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 136,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-key-136",
+    "title": "136. Natural Key",
+    "url": "/learn/introduction-to-sql/natural-key-136.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 137,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "surrogate-key-137",
+    "title": "137. Surrogate Key",
+    "url": "/learn/introduction-to-sql/surrogate-key-137.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 138,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "auto-increment-138",
+    "title": "138. AUTO INCREMENT",
+    "url": "/learn/introduction-to-sql/auto-increment-138.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 139,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "identity-column-139",
+    "title": "139. IDENTITY Column",
+    "url": "/learn/introduction-to-sql/identity-column-139.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 140,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sequence-140",
+    "title": "140. SEQUENCE",
+    "url": "/learn/introduction-to-sql/sequence-140.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 151,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "insert-select",
+    "title": "151. INSERT SELECT",
+    "url": "/learn/introduction-to-sql/insert-select.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 152,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "select-into",
+    "title": "152. SELECT INTO",
+    "url": "/learn/introduction-to-sql/select-into.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 153,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-alias-153",
+    "title": "153. SQL Alias",
+    "url": "/learn/introduction-to-sql/sql-alias-153.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 154,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "table-alias",
+    "title": "154. Table Alias",
+    "url": "/learn/introduction-to-sql/table-alias.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 155,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "column-alias",
+    "title": "155. Column Alias",
+    "url": "/learn/introduction-to-sql/column-alias.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 156,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-comments-156",
+    "title": "156. SQL Comments",
+    "url": "/learn/introduction-to-sql/sql-comments-156.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 157,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-keyword",
+    "title": "157. DISTINCT Keyword",
+    "url": "/learn/introduction-to-sql/distinct-keyword.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 158,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "limit-clause",
+    "title": "158. LIMIT Clause",
+    "url": "/learn/introduction-to-sql/limit-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 159,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top-clause",
+    "title": "159. TOP Clause",
+    "url": "/learn/introduction-to-sql/top-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 160,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "fetch-first-160",
+    "title": "160. FETCH FIRST",
+    "url": "/learn/introduction-to-sql/fetch-first-160.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 161,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-asc",
+    "title": "161. ORDER BY ASC",
+    "url": "/learn/introduction-to-sql/order-by-asc.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 162,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-desc",
+    "title": "162. ORDER BY DESC",
+    "url": "/learn/introduction-to-sql/order-by-desc.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 163,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "multiple-column-sorting",
+    "title": "163. Multiple Column Sorting",
+    "url": "/learn/introduction-to-sql/multiple-column-sorting.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 164,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-expression",
+    "title": "164. ORDER BY Expression",
+    "url": "/learn/introduction-to-sql/order-by-expression.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 165,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "where-clause-165",
+    "title": "165. WHERE Clause",
+    "url": "/learn/introduction-to-sql/where-clause-165.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 166,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equal-to-operator-166",
+    "title": "166. Equal To Operator",
+    "url": "/learn/introduction-to-sql/equal-to-operator-166.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 167,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-equal-operator-167",
+    "title": "167. Not Equal Operator",
+    "url": "/learn/introduction-to-sql/not-equal-operator-167.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 168,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-operator-168",
+    "title": "168. Greater Than Operator",
+    "url": "/learn/introduction-to-sql/greater-than-operator-168.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 169,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-operator-169",
+    "title": "169. Less Than Operator",
+    "url": "/learn/introduction-to-sql/less-than-operator-169.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 170,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-or-equal-to-170",
+    "title": "170. Greater Than or Equal To",
+    "url": "/learn/introduction-to-sql/greater-than-or-equal-to-170.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 171,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-or-equal-to-171",
+    "title": "171. Less Than or Equal To",
+    "url": "/learn/introduction-to-sql/less-than-or-equal-to-171.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 172,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "and-operator-172",
+    "title": "172. AND Operator",
+    "url": "/learn/introduction-to-sql/and-operator-172.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 173,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "or-operator-173",
+    "title": "173. OR Operator",
+    "url": "/learn/introduction-to-sql/or-operator-173.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 174,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-operator-174",
+    "title": "174. NOT Operator",
+    "url": "/learn/introduction-to-sql/not-operator-174.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 175,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "operator-precedence",
+    "title": "175. Operator Precedence",
+    "url": "/learn/introduction-to-sql/operator-precedence.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 176,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "between-operator-176",
+    "title": "176. BETWEEN Operator",
+    "url": "/learn/introduction-to-sql/between-operator-176.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 177,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-between",
+    "title": "177. NOT BETWEEN",
+    "url": "/learn/introduction-to-sql/not-between.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 178,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "in-operator-178",
+    "title": "178. IN Operator",
+    "url": "/learn/introduction-to-sql/in-operator-178.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 179,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-in-operator",
+    "title": "179. NOT IN Operator",
+    "url": "/learn/introduction-to-sql/not-in-operator.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 180,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-operator-180",
+    "title": "180. LIKE Operator",
+    "url": "/learn/introduction-to-sql/like-operator-180.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 181,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-like",
+    "title": "181. NOT LIKE",
+    "url": "/learn/introduction-to-sql/not-like.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 182,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-with-percent-wildcard",
+    "title": "182. LIKE with Percent Wildcard",
+    "url": "/learn/introduction-to-sql/like-with-percent-wildcard.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 183,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-with-underscore",
+    "title": "183. LIKE with Underscore",
+    "url": "/learn/introduction-to-sql/like-with-underscore.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 184,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "escaping-like-wildcards",
+    "title": "184. Escaping LIKE Wildcards",
+    "url": "/learn/introduction-to-sql/escaping-like-wildcards.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 185,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null-185",
+    "title": "185. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null-185.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 186,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null-186",
+    "title": "186. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null-186.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 187,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-vs-zero",
+    "title": "187. NULL vs Zero",
+    "url": "/learn/introduction-to-sql/null-vs-zero.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 188,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-vs-empty-string",
+    "title": "188. NULL vs Empty String",
+    "url": "/learn/introduction-to-sql/null-vs-empty-string.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 189,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-189",
+    "title": "189. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-189.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 190,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-190",
+    "title": "190. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-190.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 191,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct",
+    "title": "191. DISTINCT",
+    "url": "/learn/introduction-to-sql/distinct.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 192,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-with-multiple-columns",
+    "title": "192. DISTINCT with Multiple Columns",
+    "url": "/learn/introduction-to-sql/distinct-with-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 193,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "column-aliases",
+    "title": "193. Column Aliases",
+    "url": "/learn/introduction-to-sql/column-aliases.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 194,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "table-alias-194",
+    "title": "194. Table Alias",
+    "url": "/learn/introduction-to-sql/table-alias-194.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 195,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-concatenation-195",
+    "title": "195. String Concatenation",
+    "url": "/learn/introduction-to-sql/string-concatenation-195.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 196,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "length-function-196",
+    "title": "196. LENGTH Function",
+    "url": "/learn/introduction-to-sql/length-function-196.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 197,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "upper-function-197",
+    "title": "197. UPPER Function",
+    "url": "/learn/introduction-to-sql/upper-function-197.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 198,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lower-function-198",
+    "title": "198. LOWER Function",
+    "url": "/learn/introduction-to-sql/lower-function-198.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 199,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "trim-function-199",
+    "title": "199. TRIM Function",
+    "url": "/learn/introduction-to-sql/trim-function-199.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 200,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "replace-function-200",
+    "title": "200. REPLACE Function",
+    "url": "/learn/introduction-to-sql/replace-function-200.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 201,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "substring-function-201",
+    "title": "201. SUBSTRING Function",
+    "url": "/learn/introduction-to-sql/substring-function-201.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 202,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-function-202",
+    "title": "202. LEFT Function",
+    "url": "/learn/introduction-to-sql/left-function-202.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 203,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-function-203",
+    "title": "203. RIGHT Function",
+    "url": "/learn/introduction-to-sql/right-function-203.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 204,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "position-function",
+    "title": "204. POSITION Function",
+    "url": "/learn/introduction-to-sql/position-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 205,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "charindex-function-205",
+    "title": "205. CHARINDEX Function",
+    "url": "/learn/introduction-to-sql/charindex-function-205.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 206,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "character-length",
+    "title": "206. Character Length",
+    "url": "/learn/introduction-to-sql/character-length.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 207,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "round-function-207",
+    "title": "207. ROUND Function",
+    "url": "/learn/introduction-to-sql/round-function-207.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 208,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ceiling-function",
+    "title": "208. CEILING Function",
+    "url": "/learn/introduction-to-sql/ceiling-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 209,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "floor-function",
+    "title": "209. FLOOR Function",
+    "url": "/learn/introduction-to-sql/floor-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 210,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "abs-function-210",
+    "title": "210. ABS Function",
+    "url": "/learn/introduction-to-sql/abs-function-210.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 211,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "mod-function",
+    "title": "211. MOD Function",
+    "url": "/learn/introduction-to-sql/mod-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 212,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "power-function",
+    "title": "212. POWER Function",
+    "url": "/learn/introduction-to-sql/power-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 213,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sqrt-function",
+    "title": "213. SQRT Function",
+    "url": "/learn/introduction-to-sql/sqrt-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 214,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sign-function",
+    "title": "214. SIGN Function",
+    "url": "/learn/introduction-to-sql/sign-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 215,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-date-215",
+    "title": "215. Current Date",
+    "url": "/learn/introduction-to-sql/current-date-215.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 216,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-time",
+    "title": "216. Current Time",
+    "url": "/learn/introduction-to-sql/current-time.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 217,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-timestamp-217",
+    "title": "217. Current Timestamp",
+    "url": "/learn/introduction-to-sql/current-timestamp-217.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 218,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "extracting-date-parts",
+    "title": "218. Extracting Date Parts",
+    "url": "/learn/introduction-to-sql/extracting-date-parts.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 219,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-addition-219",
+    "title": "219. Date Addition",
+    "url": "/learn/introduction-to-sql/date-addition-219.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 220,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-difference-220",
+    "title": "220. Date Difference",
+    "url": "/learn/introduction-to-sql/date-difference-220.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 221,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-221",
+    "title": "221. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-221.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 222,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-222",
+    "title": "222. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-222.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 223,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cast-function",
+    "title": "223. CAST Function",
+    "url": "/learn/introduction-to-sql/cast-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 224,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "convert-function",
+    "title": "224. CONVERT Function",
+    "url": "/learn/introduction-to-sql/convert-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 225,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "case-expression",
+    "title": "225. CASE Expression",
+    "url": "/learn/introduction-to-sql/case-expression.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 226,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "simple-case-expression",
+    "title": "226. Simple CASE Expression",
+    "url": "/learn/introduction-to-sql/simple-case-expression.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 227,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "searched-case-expression",
+    "title": "227. Searched CASE Expression",
+    "url": "/learn/introduction-to-sql/searched-case-expression.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 228,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "string-concatenation-228",
+    "title": "228. String Concatenation",
+    "url": "/learn/introduction-to-sql/string-concatenation-228.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 229,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "concat-function",
+    "title": "229. CONCAT Function",
+    "url": "/learn/introduction-to-sql/concat-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 230,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "trim-function-230",
+    "title": "230. TRIM Function",
+    "url": "/learn/introduction-to-sql/trim-function-230.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 231,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ltrim-function",
+    "title": "231. LTRIM Function",
+    "url": "/learn/introduction-to-sql/ltrim-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 232,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rtrim-function",
+    "title": "232. RTRIM Function",
+    "url": "/learn/introduction-to-sql/rtrim-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 233,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "upper-function-233",
+    "title": "233. UPPER Function",
+    "url": "/learn/introduction-to-sql/upper-function-233.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 234,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lower-function-234",
+    "title": "234. LOWER Function",
+    "url": "/learn/introduction-to-sql/lower-function-234.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 235,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "replace-function-235",
+    "title": "235. REPLACE Function",
+    "url": "/learn/introduction-to-sql/replace-function-235.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 236,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "reverse-function",
+    "title": "236. REVERSE Function",
+    "url": "/learn/introduction-to-sql/reverse-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 237,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "repeat-function",
+    "title": "237. REPEAT Function",
+    "url": "/learn/introduction-to-sql/repeat-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 238,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lpad-function",
+    "title": "238. LPAD Function",
+    "url": "/learn/introduction-to-sql/lpad-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 239,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rpad-function",
+    "title": "239. RPAD Function",
+    "url": "/learn/introduction-to-sql/rpad-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 240,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "initcap-function",
+    "title": "240. INITCAP Function",
+    "url": "/learn/introduction-to-sql/initcap-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 241,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "length-function-241",
+    "title": "241. LENGTH Function",
+    "url": "/learn/introduction-to-sql/length-function-241.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 242,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "char-length-function",
+    "title": "242. CHAR_LENGTH Function",
+    "url": "/learn/introduction-to-sql/char-length-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 243,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "substring-function-243",
+    "title": "243. SUBSTRING Function",
+    "url": "/learn/introduction-to-sql/substring-function-243.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 244,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-function-244",
+    "title": "244. LEFT Function",
+    "url": "/learn/introduction-to-sql/left-function-244.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 245,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-function-245",
+    "title": "245. RIGHT Function",
+    "url": "/learn/introduction-to-sql/right-function-245.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 246,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "position-function-246",
+    "title": "246. POSITION Function",
+    "url": "/learn/introduction-to-sql/position-function-246.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 247,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "instr-function",
+    "title": "247. INSTR Function",
+    "url": "/learn/introduction-to-sql/instr-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 248,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "locate-function",
+    "title": "248. LOCATE Function",
+    "url": "/learn/introduction-to-sql/locate-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 249,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ascii-function",
+    "title": "249. ASCII Function",
+    "url": "/learn/introduction-to-sql/ascii-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 250,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "chr-function",
+    "title": "250. CHR Function",
+    "url": "/learn/introduction-to-sql/chr-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 251,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "abs-function-251",
+    "title": "251. ABS Function",
+    "url": "/learn/introduction-to-sql/abs-function-251.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 252,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ceiling-function-252",
+    "title": "252. CEILING Function",
+    "url": "/learn/introduction-to-sql/ceiling-function-252.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 253,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "floor-function-253",
+    "title": "253. FLOOR Function",
+    "url": "/learn/introduction-to-sql/floor-function-253.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 254,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "round-function-254",
+    "title": "254. ROUND Function",
+    "url": "/learn/introduction-to-sql/round-function-254.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 255,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "truncate-number",
+    "title": "255. TRUNCATE Number",
+    "url": "/learn/introduction-to-sql/truncate-number.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 256,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "power-function-256",
+    "title": "256. POWER Function",
+    "url": "/learn/introduction-to-sql/power-function-256.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 257,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sqrt-function-257",
+    "title": "257. SQRT Function",
+    "url": "/learn/introduction-to-sql/sqrt-function-257.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 258,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "mod-function-258",
+    "title": "258. MOD Function",
+    "url": "/learn/introduction-to-sql/mod-function-258.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 259,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sign-function-259",
+    "title": "259. SIGN Function",
+    "url": "/learn/introduction-to-sql/sign-function-259.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 260,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rand-function",
+    "title": "260. RAND Function",
+    "url": "/learn/introduction-to-sql/rand-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 261,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-date-261",
+    "title": "261. CURRENT_DATE",
+    "url": "/learn/introduction-to-sql/current-date-261.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 262,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-time-262",
+    "title": "262. CURRENT_TIME",
+    "url": "/learn/introduction-to-sql/current-time-262.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 263,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "current-timestamp-263",
+    "title": "263. CURRENT_TIMESTAMP",
+    "url": "/learn/introduction-to-sql/current-timestamp-263.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 264,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "now-function",
+    "title": "264. NOW Function",
+    "url": "/learn/introduction-to-sql/now-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 265,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "getdate-function",
+    "title": "265. GETDATE Function",
+    "url": "/learn/introduction-to-sql/getdate-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 266,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-part-function",
+    "title": "266. DATE_PART Function",
+    "url": "/learn/introduction-to-sql/date-part-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 267,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "extract-function",
+    "title": "267. EXTRACT Function",
+    "url": "/learn/introduction-to-sql/extract-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 268,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-trunc-function",
+    "title": "268. DATE_TRUNC Function",
+    "url": "/learn/introduction-to-sql/date-trunc-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 269,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "dateadd-function",
+    "title": "269. DATEADD Function",
+    "url": "/learn/introduction-to-sql/dateadd-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 270,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "datediff-function",
+    "title": "270. DATEDIFF Function",
+    "url": "/learn/introduction-to-sql/datediff-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 271,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "day-function",
+    "title": "271. DAY Function",
+    "url": "/learn/introduction-to-sql/day-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 272,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "month-function",
+    "title": "272. MONTH Function",
+    "url": "/learn/introduction-to-sql/month-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 273,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "year-function",
+    "title": "273. YEAR Function",
+    "url": "/learn/introduction-to-sql/year-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 274,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "hour-function",
+    "title": "274. HOUR Function",
+    "url": "/learn/introduction-to-sql/hour-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 275,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "minute-function",
+    "title": "275. MINUTE Function",
+    "url": "/learn/introduction-to-sql/minute-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 276,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "second-function",
+    "title": "276. SECOND Function",
+    "url": "/learn/introduction-to-sql/second-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 277,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "dayofweek-function",
+    "title": "277. DAYOFWEEK Function",
+    "url": "/learn/introduction-to-sql/dayofweek-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 278,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "dayofyear-function",
+    "title": "278. DAYOFYEAR Function",
+    "url": "/learn/introduction-to-sql/dayofyear-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 279,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "week-function",
+    "title": "279. WEEK Function",
+    "url": "/learn/introduction-to-sql/week-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 280,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "last-day-function",
+    "title": "280. LAST_DAY Function",
+    "url": "/learn/introduction-to-sql/last-day-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 281,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "first-day-function",
+    "title": "281. FIRST_DAY Function",
+    "url": "/learn/introduction-to-sql/first-day-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 282,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cast-function-282",
+    "title": "282. CAST Function",
+    "url": "/learn/introduction-to-sql/cast-function-282.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 283,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "convert-function-283",
+    "title": "283. CONVERT Function",
+    "url": "/learn/introduction-to-sql/convert-function-283.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 284,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "try-cast-function",
+    "title": "284. TRY_CAST Function",
+    "url": "/learn/introduction-to-sql/try-cast-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 285,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "try-convert-function",
+    "title": "285. TRY_CONVERT Function",
+    "url": "/learn/introduction-to-sql/try-convert-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 286,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-286",
+    "title": "286. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-286.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 287,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-287",
+    "title": "287. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-287.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 288,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "isnull-function",
+    "title": "288. ISNULL Function",
+    "url": "/learn/introduction-to-sql/isnull-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 289,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nvl-function",
+    "title": "289. NVL Function",
+    "url": "/learn/introduction-to-sql/nvl-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 290,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greatest-function",
+    "title": "290. GREATEST Function",
+    "url": "/learn/introduction-to-sql/greatest-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 291,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "least-function",
+    "title": "291. LEAST Function",
+    "url": "/learn/introduction-to-sql/least-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 292,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "abs-function-292",
+    "title": "292. ABS Function",
+    "url": "/learn/introduction-to-sql/abs-function-292.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 293,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ceiling-function-293",
+    "title": "293. CEILING Function",
+    "url": "/learn/introduction-to-sql/ceiling-function-293.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 294,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "floor-function-294",
+    "title": "294. FLOOR Function",
+    "url": "/learn/introduction-to-sql/floor-function-294.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 295,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "round-function-295",
+    "title": "295. ROUND Function",
+    "url": "/learn/introduction-to-sql/round-function-295.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 296,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "power-function-296",
+    "title": "296. POWER Function",
+    "url": "/learn/introduction-to-sql/power-function-296.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 297,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sqrt-function-297",
+    "title": "297. SQRT Function",
+    "url": "/learn/introduction-to-sql/sqrt-function-297.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 298,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "exp-function",
+    "title": "298. EXP Function",
+    "url": "/learn/introduction-to-sql/exp-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 299,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "log-function",
+    "title": "299. LOG Function",
+    "url": "/learn/introduction-to-sql/log-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 300,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sign-function-300",
+    "title": "300. SIGN Function",
+    "url": "/learn/introduction-to-sql/sign-function-300.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 301,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "mod-function-301",
+    "title": "301. MOD Function",
+    "url": "/learn/introduction-to-sql/mod-function-301.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 302,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "random-function",
+    "title": "302. RANDOM Function",
+    "url": "/learn/introduction-to-sql/random-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 303,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "concat-function-303",
+    "title": "303. CONCAT Function",
+    "url": "/learn/introduction-to-sql/concat-function-303.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 304,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "concat-ws-function",
+    "title": "304. CONCAT_WS Function",
+    "url": "/learn/introduction-to-sql/concat-ws-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 305,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lower-function-305",
+    "title": "305. LOWER Function",
+    "url": "/learn/introduction-to-sql/lower-function-305.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 306,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "upper-function-306",
+    "title": "306. UPPER Function",
+    "url": "/learn/introduction-to-sql/upper-function-306.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 307,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "initcap-function-307",
+    "title": "307. INITCAP Function",
+    "url": "/learn/introduction-to-sql/initcap-function-307.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 308,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "length-function-308",
+    "title": "308. LENGTH Function",
+    "url": "/learn/introduction-to-sql/length-function-308.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 309,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-function-309",
+    "title": "309. LEFT Function",
+    "url": "/learn/introduction-to-sql/left-function-309.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 310,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-function-310",
+    "title": "310. RIGHT Function",
+    "url": "/learn/introduction-to-sql/right-function-310.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 311,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "substring-function-311",
+    "title": "311. SUBSTRING Function",
+    "url": "/learn/introduction-to-sql/substring-function-311.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 312,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "trim-function-312",
+    "title": "312. TRIM Function",
+    "url": "/learn/introduction-to-sql/trim-function-312.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 313,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ltrim-function-313",
+    "title": "313. LTRIM Function",
+    "url": "/learn/introduction-to-sql/ltrim-function-313.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 314,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rtrim-function-314",
+    "title": "314. RTRIM Function",
+    "url": "/learn/introduction-to-sql/rtrim-function-314.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 315,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "replace-function-315",
+    "title": "315. REPLACE Function",
+    "url": "/learn/introduction-to-sql/replace-function-315.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 316,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "position-function-316",
+    "title": "316. POSITION Function",
+    "url": "/learn/introduction-to-sql/position-function-316.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 317,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "instr-function-317",
+    "title": "317. INSTR Function",
+    "url": "/learn/introduction-to-sql/instr-function-317.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 318,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "charindex-function-318",
+    "title": "318. CHARINDEX Function",
+    "url": "/learn/introduction-to-sql/charindex-function-318.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 319,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "lpad-function-319",
+    "title": "319. LPAD Function",
+    "url": "/learn/introduction-to-sql/lpad-function-319.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 320,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rpad-function-320",
+    "title": "320. RPAD Function",
+    "url": "/learn/introduction-to-sql/rpad-function-320.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 321,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "ascii-function-321",
+    "title": "321. ASCII Function",
+    "url": "/learn/introduction-to-sql/ascii-function-321.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 322,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "chr-function-322",
+    "title": "322. CHR Function",
+    "url": "/learn/introduction-to-sql/chr-function-322.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 323,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "char-function",
+    "title": "323. CHAR Function",
+    "url": "/learn/introduction-to-sql/char-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 324,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "reverse-function-324",
+    "title": "324. REVERSE Function",
+    "url": "/learn/introduction-to-sql/reverse-function-324.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 325,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "repeat-function-325",
+    "title": "325. REPEAT Function",
+    "url": "/learn/introduction-to-sql/repeat-function-325.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 326,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "translate-function",
+    "title": "326. TRANSLATE Function",
+    "url": "/learn/introduction-to-sql/translate-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 327,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-327",
+    "title": "327. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-327.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 328,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-328",
+    "title": "328. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-328.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 329,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greatest-function-329",
+    "title": "329. GREATEST Function",
+    "url": "/learn/introduction-to-sql/greatest-function-329.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 330,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "least-function-330",
+    "title": "330. LEAST Function",
+    "url": "/learn/introduction-to-sql/least-function-330.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 331,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cast-function-331",
+    "title": "331. CAST Function",
+    "url": "/learn/introduction-to-sql/cast-function-331.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 332,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "convert-function-332",
+    "title": "332. CONVERT Function",
+    "url": "/learn/introduction-to-sql/convert-function-332.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 333,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "isnull-function-333",
+    "title": "333. ISNULL Function",
+    "url": "/learn/introduction-to-sql/isnull-function-333.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 334,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "case-expression-334",
+    "title": "334. CASE Expression",
+    "url": "/learn/introduction-to-sql/case-expression-334.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 335,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "simple-case",
+    "title": "335. Simple CASE",
+    "url": "/learn/introduction-to-sql/simple-case.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 336,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "searched-case",
+    "title": "336. Searched CASE",
+    "url": "/learn/introduction-to-sql/searched-case.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 337,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-handling-337",
+    "title": "337. NULL Handling",
+    "url": "/learn/introduction-to-sql/null-handling-337.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 338,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null-338",
+    "title": "338. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null-338.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 339,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null-339",
+    "title": "339. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null-339.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 340,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-vs-coalesce",
+    "title": "340. NULLIF vs COALESCE",
+    "url": "/learn/introduction-to-sql/nullif-vs-coalesce.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 341,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-values",
+    "title": "341. DISTINCT Values",
+    "url": "/learn/introduction-to-sql/distinct-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 342,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "select-distinct-multiple-columns",
+    "title": "342. SELECT DISTINCT Multiple Columns",
+    "url": "/learn/introduction-to-sql/select-distinct-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 343,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "limit-clause-343",
+    "title": "343. LIMIT Clause",
+    "url": "/learn/introduction-to-sql/limit-clause-343.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 344,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top-clause-344",
+    "title": "344. TOP Clause",
+    "url": "/learn/introduction-to-sql/top-clause-344.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 345,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "fetch-first-345",
+    "title": "345. FETCH FIRST",
+    "url": "/learn/introduction-to-sql/fetch-first-345.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 346,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "offset-clause",
+    "title": "346. OFFSET Clause",
+    "url": "/learn/introduction-to-sql/offset-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 347,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-asc-347",
+    "title": "347. ORDER BY ASC",
+    "url": "/learn/introduction-to-sql/order-by-asc-347.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 348,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-desc-348",
+    "title": "348. ORDER BY DESC",
+    "url": "/learn/introduction-to-sql/order-by-desc-348.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 349,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "multiple-column-sorting-349",
+    "title": "349. Multiple Column Sorting",
+    "url": "/learn/introduction-to-sql/multiple-column-sorting-349.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 350,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-column-position",
+    "title": "350. ORDER BY Column Position",
+    "url": "/learn/introduction-to-sql/order-by-column-position.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 351,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "where-clause-351",
+    "title": "351. WHERE Clause",
+    "url": "/learn/introduction-to-sql/where-clause-351.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 352,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equal-to-operator-352",
+    "title": "352. Equal To Operator",
+    "url": "/learn/introduction-to-sql/equal-to-operator-352.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 353,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-equal-operator-353",
+    "title": "353. Not Equal Operator",
+    "url": "/learn/introduction-to-sql/not-equal-operator-353.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 354,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-operator-354",
+    "title": "354. Greater Than Operator",
+    "url": "/learn/introduction-to-sql/greater-than-operator-354.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 355,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-operator-355",
+    "title": "355. Less Than Operator",
+    "url": "/learn/introduction-to-sql/less-than-operator-355.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 356,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "greater-than-or-equal-to-356",
+    "title": "356. Greater Than or Equal To",
+    "url": "/learn/introduction-to-sql/greater-than-or-equal-to-356.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 357,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "less-than-or-equal-to-357",
+    "title": "357. Less Than or Equal To",
+    "url": "/learn/introduction-to-sql/less-than-or-equal-to-357.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 358,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "and-operator-358",
+    "title": "358. AND Operator",
+    "url": "/learn/introduction-to-sql/and-operator-358.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 359,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "or-operator-359",
+    "title": "359. OR Operator",
+    "url": "/learn/introduction-to-sql/or-operator-359.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 360,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-operator-360",
+    "title": "360. NOT Operator",
+    "url": "/learn/introduction-to-sql/not-operator-360.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 361,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "between-operator-361",
+    "title": "361. BETWEEN Operator",
+    "url": "/learn/introduction-to-sql/between-operator-361.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 362,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-between-362",
+    "title": "362. NOT BETWEEN",
+    "url": "/learn/introduction-to-sql/not-between-362.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 363,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "in-operator-363",
+    "title": "363. IN Operator",
+    "url": "/learn/introduction-to-sql/in-operator-363.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 364,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-in-operator-364",
+    "title": "364. NOT IN Operator",
+    "url": "/learn/introduction-to-sql/not-in-operator-364.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 365,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-operator-365",
+    "title": "365. LIKE Operator",
+    "url": "/learn/introduction-to-sql/like-operator-365.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 366,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-starts-with",
+    "title": "366. LIKE Starts With",
+    "url": "/learn/introduction-to-sql/like-starts-with.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 367,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-ends-with",
+    "title": "367. LIKE Ends With",
+    "url": "/learn/introduction-to-sql/like-ends-with.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 368,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "like-contains",
+    "title": "368. LIKE Contains",
+    "url": "/learn/introduction-to-sql/like-contains.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 369,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-like-369",
+    "title": "369. NOT LIKE",
+    "url": "/learn/introduction-to-sql/not-like-369.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 370,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-wildcards-370",
+    "title": "370. SQL Wildcards",
+    "url": "/learn/introduction-to-sql/sql-wildcards-370.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 371,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-null-371",
+    "title": "371. IS NULL",
+    "url": "/learn/introduction-to-sql/is-null-371.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 372,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "is-not-null-372",
+    "title": "372. IS NOT NULL",
+    "url": "/learn/introduction-to-sql/is-not-null-372.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 373,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-vs-zero-373",
+    "title": "373. NULL vs Zero",
+    "url": "/learn/introduction-to-sql/null-vs-zero-373.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 374,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "null-vs-empty-string-374",
+    "title": "374. NULL vs Empty String",
+    "url": "/learn/introduction-to-sql/null-vs-empty-string-374.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 375,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "coalesce-function-375",
+    "title": "375. COALESCE Function",
+    "url": "/learn/introduction-to-sql/coalesce-function-375.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 376,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nullif-function-376",
+    "title": "376. NULLIF Function",
+    "url": "/learn/introduction-to-sql/nullif-function-376.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 377,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "case-expression-377",
+    "title": "377. CASE Expression",
+    "url": "/learn/introduction-to-sql/case-expression-377.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 378,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "simple-case-378",
+    "title": "378. Simple CASE",
+    "url": "/learn/introduction-to-sql/simple-case-378.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 379,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "searched-case-379",
+    "title": "379. Searched CASE",
+    "url": "/learn/introduction-to-sql/searched-case-379.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 380,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "case-with-aggregate-functions",
+    "title": "380. CASE with Aggregate Functions",
+    "url": "/learn/introduction-to-sql/case-with-aggregate-functions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 381,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "count-function-381",
+    "title": "381. COUNT Function",
+    "url": "/learn/introduction-to-sql/count-function-381.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 382,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "count-distinct-382",
+    "title": "382. COUNT DISTINCT",
+    "url": "/learn/introduction-to-sql/count-distinct-382.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 383,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sum-function-383",
+    "title": "383. SUM Function",
+    "url": "/learn/introduction-to-sql/sum-function-383.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 384,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "avg-function-384",
+    "title": "384. AVG Function",
+    "url": "/learn/introduction-to-sql/avg-function-384.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 385,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "min-function-385",
+    "title": "385. MIN Function",
+    "url": "/learn/introduction-to-sql/min-function-385.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 386,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "max-function-386",
+    "title": "386. MAX Function",
+    "url": "/learn/introduction-to-sql/max-function-386.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 387,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-clause-387",
+    "title": "387. GROUP BY Clause",
+    "url": "/learn/introduction-to-sql/group-by-clause-387.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 388,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "group-by-multiple-columns-388",
+    "title": "388. GROUP BY Multiple Columns",
+    "url": "/learn/introduction-to-sql/group-by-multiple-columns-388.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 389,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "having-clause-389",
+    "title": "389. HAVING Clause",
+    "url": "/learn/introduction-to-sql/having-clause-389.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 390,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "where-vs-having-390",
+    "title": "390. WHERE vs HAVING",
+    "url": "/learn/introduction-to-sql/where-vs-having-390.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 391,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-391",
+    "title": "391. ORDER BY",
+    "url": "/learn/introduction-to-sql/order-by-391.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 392,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "order-by-multiple-columns",
+    "title": "392. ORDER BY Multiple Columns",
+    "url": "/learn/introduction-to-sql/order-by-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 393,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-393",
+    "title": "393. DISTINCT",
+    "url": "/learn/introduction-to-sql/distinct-393.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 394,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "distinct-multiple-columns",
+    "title": "394. DISTINCT Multiple Columns",
+    "url": "/learn/introduction-to-sql/distinct-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 395,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "limit-clause-395",
+    "title": "395. LIMIT Clause",
+    "url": "/learn/introduction-to-sql/limit-clause-395.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 396,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top-clause-396",
+    "title": "396. TOP Clause",
+    "url": "/learn/introduction-to-sql/top-clause-396.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 397,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "fetch-first-397",
+    "title": "397. FETCH FIRST",
+    "url": "/learn/introduction-to-sql/fetch-first-397.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 398,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "offset",
+    "title": "398. OFFSET",
+    "url": "/learn/introduction-to-sql/offset.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 399,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top-n-queries",
+    "title": "399. TOP-N Queries",
+    "url": "/learn/introduction-to-sql/top-n-queries.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 400,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "offset-pagination",
+    "title": "400. OFFSET Pagination",
+    "url": "/learn/introduction-to-sql/offset-pagination.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 401,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "inner-join",
+    "title": "401. INNER JOIN",
+    "url": "/learn/introduction-to-sql/inner-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 402,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join",
+    "title": "402. LEFT JOIN",
+    "url": "/learn/introduction-to-sql/left-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 403,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-join",
+    "title": "403. RIGHT JOIN",
+    "url": "/learn/introduction-to-sql/right-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 404,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "full-outer-join",
+    "title": "404. FULL OUTER JOIN",
+    "url": "/learn/introduction-to-sql/full-outer-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 405,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join",
+    "title": "405. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 406,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join",
+    "title": "406. SELF JOIN",
+    "url": "/learn/introduction-to-sql/self-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 407,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-primary-key",
+    "title": "407. JOIN Using Primary Key",
+    "url": "/learn/introduction-to-sql/join-using-primary-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 408,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-foreign-key",
+    "title": "408. JOIN Using Foreign Key",
+    "url": "/learn/introduction-to-sql/join-using-foreign-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 409,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-multiple-conditions",
+    "title": "409. JOIN with Multiple Conditions",
+    "url": "/learn/introduction-to-sql/join-with-multiple-conditions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 410,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-duplicates",
+    "title": "410. JOIN Duplicates",
+    "url": "/learn/introduction-to-sql/join-duplicates.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 401,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "inner-join-401",
+    "title": "401. INNER JOIN",
+    "url": "/learn/introduction-to-sql/inner-join-401.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 402,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-402",
+    "title": "402. LEFT JOIN",
+    "url": "/learn/introduction-to-sql/left-join-402.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 403,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-join-403",
+    "title": "403. RIGHT JOIN",
+    "url": "/learn/introduction-to-sql/right-join-403.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 404,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "full-outer-join-404",
+    "title": "404. FULL OUTER JOIN",
+    "url": "/learn/introduction-to-sql/full-outer-join-404.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 405,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-405",
+    "title": "405. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join-405.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 406,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-406",
+    "title": "406. SELF JOIN",
+    "url": "/learn/introduction-to-sql/self-join-406.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 407,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-primary-key-407",
+    "title": "407. JOIN Using Primary Key",
+    "url": "/learn/introduction-to-sql/join-using-primary-key-407.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 408,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-foreign-key-408",
+    "title": "408. JOIN Using Foreign Key",
+    "url": "/learn/introduction-to-sql/join-using-foreign-key-408.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 409,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-multiple-conditions-409",
+    "title": "409. JOIN with Multiple Conditions",
+    "url": "/learn/introduction-to-sql/join-with-multiple-conditions-409.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 410,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-duplicates-410",
+    "title": "410. JOIN Duplicates",
+    "url": "/learn/introduction-to-sql/join-duplicates-410.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 421,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "three-table-join",
+    "title": "421. Three Table JOIN",
+    "url": "/learn/introduction-to-sql/three-table-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 422,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "four-table-join",
+    "title": "422. Four Table JOIN",
+    "url": "/learn/introduction-to-sql/four-table-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 423,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-same-table-twice",
+    "title": "423. JOIN Same Table Twice",
+    "url": "/learn/introduction-to-sql/join-same-table-twice.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 424,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-aggregate-functions",
+    "title": "424. JOIN and Aggregate Functions",
+    "url": "/learn/introduction-to-sql/join-and-aggregate-functions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 425,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-count",
+    "title": "425. JOIN and COUNT",
+    "url": "/learn/introduction-to-sql/join-and-count.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 426,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-sum",
+    "title": "426. JOIN and SUM",
+    "url": "/learn/introduction-to-sql/join-and-sum.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 427,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-avg",
+    "title": "427. JOIN and AVG",
+    "url": "/learn/introduction-to-sql/join-and-avg.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 428,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-min-and-max",
+    "title": "428. JOIN with MIN and MAX",
+    "url": "/learn/introduction-to-sql/join-with-min-and-max.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 429,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case",
+    "title": "429. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 430,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-coalesce",
+    "title": "430. JOIN with COALESCE",
+    "url": "/learn/introduction-to-sql/join-with-coalesce.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 431,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-subquery",
+    "title": "431. JOIN with Subquery",
+    "url": "/learn/introduction-to-sql/join-with-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 432,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cte",
+    "title": "432. JOIN with CTE",
+    "url": "/learn/introduction-to-sql/join-with-cte.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 433,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-with-filter",
+    "title": "433. LEFT JOIN with Filter",
+    "url": "/learn/introduction-to-sql/left-join-with-filter.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 434,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "inner-join-vs-left-join",
+    "title": "434. INNER JOIN vs LEFT JOIN",
+    "url": "/learn/introduction-to-sql/inner-join-vs-left-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 435,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-vs-right-join",
+    "title": "435. LEFT JOIN vs RIGHT JOIN",
+    "url": "/learn/introduction-to-sql/left-join-vs-right-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 436,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "full-join-vs-union",
+    "title": "436. FULL JOIN vs UNION",
+    "url": "/learn/introduction-to-sql/full-join-vs-union.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 437,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-vs-subquery",
+    "title": "437. JOIN vs Subquery",
+    "url": "/learn/introduction-to-sql/join-vs-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 438,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-vs-exists",
+    "title": "438. JOIN vs EXISTS",
+    "url": "/learn/introduction-to-sql/join-vs-exists.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 439,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "anti-join",
+    "title": "439. Anti JOIN",
+    "url": "/learn/introduction-to-sql/anti-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 440,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "semi-join",
+    "title": "440. Semi JOIN",
+    "url": "/learn/introduction-to-sql/semi-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 441,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-441",
+    "title": "441. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join-441.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 442,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-442",
+    "title": "442. SELF JOIN",
+    "url": "/learn/introduction-to-sql/self-join-442.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 443,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equi-join",
+    "title": "443. EQUI JOIN",
+    "url": "/learn/introduction-to-sql/equi-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 444,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join",
+    "title": "444. NON-EQUI JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 445,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "range-join",
+    "title": "445. RANGE JOIN",
+    "url": "/learn/introduction-to-sql/range-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 446,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-range-join",
+    "title": "446. DATE RANGE JOIN",
+    "url": "/learn/introduction-to-sql/date-range-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 447,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-on-multiple-columns",
+    "title": "447. JOIN on Multiple Columns",
+    "url": "/learn/introduction-to-sql/join-on-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 448,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-composite-key",
+    "title": "448. JOIN using Composite Key",
+    "url": "/learn/introduction-to-sql/join-using-composite-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 449,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-duplicate-rows",
+    "title": "449. JOIN and Duplicate Rows",
+    "url": "/learn/introduction-to-sql/join-and-duplicate-rows.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 450,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-duplicate-data",
+    "title": "450. JOIN and Duplicate Data",
+    "url": "/learn/introduction-to-sql/join-and-duplicate-data.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 451,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-distinct",
+    "title": "451. JOIN with DISTINCT",
+    "url": "/learn/introduction-to-sql/join-with-distinct.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 452,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-order-by",
+    "title": "452. JOIN with ORDER BY",
+    "url": "/learn/introduction-to-sql/join-with-order-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 453,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-where",
+    "title": "453. JOIN with WHERE",
+    "url": "/learn/introduction-to-sql/join-with-where.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 454,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-group-by",
+    "title": "454. JOIN with GROUP BY",
+    "url": "/learn/introduction-to-sql/join-with-group-by.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 455,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-having",
+    "title": "455. JOIN with HAVING",
+    "url": "/learn/introduction-to-sql/join-with-having.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 456,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-limit",
+    "title": "456. JOIN with LIMIT",
+    "url": "/learn/introduction-to-sql/join-with-limit.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 457,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-top",
+    "title": "457. JOIN with TOP",
+    "url": "/learn/introduction-to-sql/join-with-top.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 458,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-fetch",
+    "title": "458. JOIN with FETCH",
+    "url": "/learn/introduction-to-sql/join-with-fetch.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 459,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-null-values",
+    "title": "459. JOIN with NULL Values",
+    "url": "/learn/introduction-to-sql/join-with-null-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 460,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-for-data-reconciliation",
+    "title": "460. JOIN for Data Reconciliation",
+    "url": "/learn/introduction-to-sql/join-for-data-reconciliation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 461,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "inner-join-filtering",
+    "title": "461. INNER JOIN Filtering",
+    "url": "/learn/introduction-to-sql/inner-join-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 462,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-filtering",
+    "title": "462. LEFT JOIN Filtering",
+    "url": "/learn/introduction-to-sql/left-join-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 463,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "right-join-filtering",
+    "title": "463. RIGHT JOIN Filtering",
+    "url": "/learn/introduction-to-sql/right-join-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 464,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "full-join-filtering",
+    "title": "464. FULL JOIN Filtering",
+    "url": "/learn/introduction-to-sql/full-join-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 465,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregate-functions",
+    "title": "465. JOIN with Aggregate Functions",
+    "url": "/learn/introduction-to-sql/join-with-aggregate-functions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 466,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "count-with-join",
+    "title": "466. COUNT with JOIN",
+    "url": "/learn/introduction-to-sql/count-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 467,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sum-with-join",
+    "title": "467. SUM with JOIN",
+    "url": "/learn/introduction-to-sql/sum-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 468,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "avg-with-join",
+    "title": "468. AVG with JOIN",
+    "url": "/learn/introduction-to-sql/avg-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 469,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "min-and-max-with-join",
+    "title": "469. MIN and MAX with JOIN",
+    "url": "/learn/introduction-to-sql/min-and-max-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 470,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-470",
+    "title": "470. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case-470.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 471,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-coalesce-471",
+    "title": "471. JOIN with COALESCE",
+    "url": "/learn/introduction-to-sql/join-with-coalesce-471.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 472,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-null-check",
+    "title": "472. JOIN with NULL Check",
+    "url": "/learn/introduction-to-sql/join-with-null-check.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 473,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-to-find-missing-records",
+    "title": "473. JOIN to Find Missing Records",
+    "url": "/learn/introduction-to-sql/join-to-find-missing-records.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 474,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-to-find-matched-records",
+    "title": "474. JOIN to Find Matched Records",
+    "url": "/learn/introduction-to-sql/join-to-find-matched-records.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 475,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-to-find-unmatched-records",
+    "title": "475. JOIN to Find Unmatched Records",
+    "url": "/learn/introduction-to-sql/join-to-find-unmatched-records.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 476,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-subquery-476",
+    "title": "476. JOIN with Subquery",
+    "url": "/learn/introduction-to-sql/join-with-subquery-476.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 477,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cte-477",
+    "title": "477. JOIN with CTE",
+    "url": "/learn/introduction-to-sql/join-with-cte-477.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 478,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-window-function",
+    "title": "478. JOIN with Window Function",
+    "url": "/learn/introduction-to-sql/join-with-window-function.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 479,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-union",
+    "title": "479. JOIN with UNION",
+    "url": "/learn/introduction-to-sql/join-with-union.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 480,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-performance",
+    "title": "480. JOIN Performance",
+    "url": "/learn/introduction-to-sql/join-performance.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 481,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-duplicate-records",
+    "title": "481. JOIN Duplicate Records",
+    "url": "/learn/introduction-to-sql/join-duplicate-records.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 482,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-row-multiplication",
+    "title": "482. JOIN Row Multiplication",
+    "url": "/learn/introduction-to-sql/join-row-multiplication.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 483,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-and-distinct",
+    "title": "483. JOIN and DISTINCT",
+    "url": "/learn/introduction-to-sql/join-and-distinct.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 484,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-composite-key-484",
+    "title": "484. JOIN using Composite Key",
+    "url": "/learn/introduction-to-sql/join-using-composite-key-484.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 485,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-on-multiple-conditions",
+    "title": "485. JOIN on Multiple Conditions",
+    "url": "/learn/introduction-to-sql/join-on-multiple-conditions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 486,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-or-condition",
+    "title": "486. JOIN using OR Condition",
+    "url": "/learn/introduction-to-sql/join-using-or-condition.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 487,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-on-date-range",
+    "title": "487. JOIN on Date Range",
+    "url": "/learn/introduction-to-sql/join-on-date-range.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 488,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-488",
+    "title": "488. SELF JOIN",
+    "url": "/learn/introduction-to-sql/self-join-488.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 489,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-489",
+    "title": "489. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join-489.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 490,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join-490",
+    "title": "490. NON-EQUI JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join-490.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 491,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equi-join-491",
+    "title": "491. EQUI JOIN",
+    "url": "/learn/introduction-to-sql/equi-join-491.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 492,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-join",
+    "title": "492. NATURAL JOIN",
+    "url": "/learn/introduction-to-sql/natural-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 493,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-clause",
+    "title": "493. JOIN USING Clause",
+    "url": "/learn/introduction-to-sql/join-using-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 494,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-alias",
+    "title": "494. JOIN Alias",
+    "url": "/learn/introduction-to-sql/join-alias.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 495,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "qualifying-columns-in-join",
+    "title": "495. Qualifying Columns in JOIN",
+    "url": "/learn/introduction-to-sql/qualifying-columns-in-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 496,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-order-by-496",
+    "title": "496. JOIN with ORDER BY",
+    "url": "/learn/introduction-to-sql/join-with-order-by-496.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 497,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-group-by-497",
+    "title": "497. JOIN with GROUP BY",
+    "url": "/learn/introduction-to-sql/join-with-group-by-497.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 498,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-having-498",
+    "title": "498. JOIN with HAVING",
+    "url": "/learn/introduction-to-sql/join-with-having-498.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 499,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-where-499",
+    "title": "499. JOIN with WHERE",
+    "url": "/learn/introduction-to-sql/join-with-where-499.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 500,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "sql-join-summary",
+    "title": "500. SQL JOIN Summary",
+    "url": "/learn/introduction-to-sql/sql-join-summary.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 501,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-performance-501",
+    "title": "501. JOIN Performance",
+    "url": "/learn/introduction-to-sql/join-performance-501.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 502,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-execution-plan",
+    "title": "502. JOIN Execution Plan",
+    "url": "/learn/introduction-to-sql/join-execution-plan.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 503,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-null-values-503",
+    "title": "503. JOIN with NULL Values",
+    "url": "/learn/introduction-to-sql/join-with-null-values-503.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 504,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-vs-not-exists",
+    "title": "504. LEFT JOIN vs NOT EXISTS",
+    "url": "/learn/introduction-to-sql/left-join-vs-not-exists.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 505,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-vs-subquery-505",
+    "title": "505. JOIN vs Subquery",
+    "url": "/learn/introduction-to-sql/join-vs-subquery-505.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 506,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-vs-union",
+    "title": "506. JOIN vs UNION",
+    "url": "/learn/introduction-to-sql/join-vs-union.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 507,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "multiple-table-join",
+    "title": "507. Multiple Table JOIN",
+    "url": "/learn/introduction-to-sql/multiple-table-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 508,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "four-table-join-508",
+    "title": "508. Four Table JOIN",
+    "url": "/learn/introduction-to-sql/four-table-join-508.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 509,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "complex-join-conditions",
+    "title": "509. Complex JOIN Conditions",
+    "url": "/learn/introduction-to-sql/complex-join-conditions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 510,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "avoiding-accidental-cross-join",
+    "title": "510. Avoiding Accidental CROSS JOIN",
+    "url": "/learn/introduction-to-sql/avoiding-accidental-cross-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 511,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-data-validation",
+    "title": "511. JOIN Data Validation",
+    "url": "/learn/introduction-to-sql/join-data-validation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 512,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "finding-missing-relationships",
+    "title": "512. Finding Missing Relationships",
+    "url": "/learn/introduction-to-sql/finding-missing-relationships.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 513,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "finding-orphan-records",
+    "title": "513. Finding Orphan Records",
+    "url": "/learn/introduction-to-sql/finding-orphan-records.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 514,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "referential-integrity-514",
+    "title": "514. Referential Integrity",
+    "url": "/learn/introduction-to-sql/referential-integrity-514.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 515,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "primary-key-and-join",
+    "title": "515. Primary Key and JOIN",
+    "url": "/learn/introduction-to-sql/primary-key-and-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 516,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "foreign-key-and-join",
+    "title": "516. Foreign Key and JOIN",
+    "url": "/learn/introduction-to-sql/foreign-key-and-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 517,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregate-subquery",
+    "title": "517. JOIN with Aggregate Subquery",
+    "url": "/learn/introduction-to-sql/join-with-aggregate-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 518,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-derived-table",
+    "title": "518. JOIN with Derived Table",
+    "url": "/learn/introduction-to-sql/join-with-derived-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 519,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cte-519",
+    "title": "519. JOIN with CTE",
+    "url": "/learn/introduction-to-sql/join-with-cte-519.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 520,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-window-functions",
+    "title": "520. JOIN with Window Functions",
+    "url": "/learn/introduction-to-sql/join-with-window-functions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 521,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-521",
+    "title": "521. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case-521.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 522,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-date-conditions",
+    "title": "522. JOIN with Date Conditions",
+    "url": "/learn/introduction-to-sql/join-with-date-conditions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 523,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-range-conditions",
+    "title": "523. JOIN with Range Conditions",
+    "url": "/learn/introduction-to-sql/join-with-range-conditions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 524,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-multiple-columns",
+    "title": "524. JOIN Using Multiple Columns",
+    "url": "/learn/introduction-to-sql/join-using-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 525,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "composite-key-join",
+    "title": "525. Composite Key JOIN",
+    "url": "/learn/introduction-to-sql/composite-key-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 526,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-526",
+    "title": "526. Self JOIN",
+    "url": "/learn/introduction-to-sql/self-join-526.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 527,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-for-employee-hierarchy",
+    "title": "527. Self JOIN for Employee Hierarchy",
+    "url": "/learn/introduction-to-sql/self-join-for-employee-hierarchy.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 528,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-528",
+    "title": "528. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join-528.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 529,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-use-cases",
+    "title": "529. CROSS JOIN Use Cases",
+    "url": "/learn/introduction-to-sql/cross-join-use-cases.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 530,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-join-530",
+    "title": "530. NATURAL JOIN",
+    "url": "/learn/introduction-to-sql/natural-join-530.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 531,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equi-join-531",
+    "title": "531. EQUI JOIN",
+    "url": "/learn/introduction-to-sql/equi-join-531.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 532,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join-532",
+    "title": "532. NON-EQUI JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join-532.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 533,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "anti-join-533",
+    "title": "533. ANTI JOIN",
+    "url": "/learn/introduction-to-sql/anti-join-533.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 534,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "semi-join-534",
+    "title": "534. SEMI JOIN",
+    "url": "/learn/introduction-to-sql/semi-join-534.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 535,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "exists-with-join",
+    "title": "535. EXISTS with JOIN",
+    "url": "/learn/introduction-to-sql/exists-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 536,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-duplicate-records-536",
+    "title": "536. JOIN Duplicate Records",
+    "url": "/learn/introduction-to-sql/join-duplicate-records-536.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 537,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-cardinality",
+    "title": "537. JOIN Cardinality",
+    "url": "/learn/introduction-to-sql/join-cardinality.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 538,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "one-to-one-join",
+    "title": "538. One-to-One JOIN",
+    "url": "/learn/introduction-to-sql/one-to-one-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 539,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "one-to-many-join",
+    "title": "539. One-to-Many JOIN",
+    "url": "/learn/introduction-to-sql/one-to-many-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 540,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "many-to-many-join",
+    "title": "540. Many-to-Many JOIN",
+    "url": "/learn/introduction-to-sql/many-to-many-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 541,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregate",
+    "title": "541. JOIN with Aggregate",
+    "url": "/learn/introduction-to-sql/join-with-aggregate.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 542,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-count",
+    "title": "542. JOIN with COUNT",
+    "url": "/learn/introduction-to-sql/join-with-count.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 543,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-sum",
+    "title": "543. JOIN with SUM",
+    "url": "/learn/introduction-to-sql/join-with-sum.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 544,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-avg",
+    "title": "544. JOIN with AVG",
+    "url": "/learn/introduction-to-sql/join-with-avg.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 545,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-min-and-max-545",
+    "title": "545. JOIN with MIN and MAX",
+    "url": "/learn/introduction-to-sql/join-with-min-and-max-545.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 546,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-having-546",
+    "title": "546. JOIN with HAVING",
+    "url": "/learn/introduction-to-sql/join-with-having-546.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 547,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-distinct-547",
+    "title": "547. JOIN with DISTINCT",
+    "url": "/learn/introduction-to-sql/join-with-distinct-547.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 548,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-order-by-548",
+    "title": "548. JOIN with ORDER BY",
+    "url": "/learn/introduction-to-sql/join-with-order-by-548.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 549,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-limit-549",
+    "title": "549. JOIN with LIMIT",
+    "url": "/learn/introduction-to-sql/join-with-limit-549.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 550,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-performance-550",
+    "title": "550. JOIN Performance",
+    "url": "/learn/introduction-to-sql/join-performance-550.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 551,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-index",
+    "title": "551. JOIN Using Index",
+    "url": "/learn/introduction-to-sql/join-using-index.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 552,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-execution-plan-552",
+    "title": "552. JOIN Execution Plan",
+    "url": "/learn/introduction-to-sql/join-execution-plan-552.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 553,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "nested-loop-join",
+    "title": "553. Nested Loop JOIN",
+    "url": "/learn/introduction-to-sql/nested-loop-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 554,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "hash-join",
+    "title": "554. Hash JOIN",
+    "url": "/learn/introduction-to-sql/hash-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 555,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "merge-join",
+    "title": "555. Merge JOIN",
+    "url": "/learn/introduction-to-sql/merge-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 556,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-order",
+    "title": "556. JOIN Order",
+    "url": "/learn/introduction-to-sql/join-order.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 557,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-filtering",
+    "title": "557. JOIN Filtering",
+    "url": "/learn/introduction-to-sql/join-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 558,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "left-join-filter",
+    "title": "558. LEFT JOIN Filter",
+    "url": "/learn/introduction-to-sql/left-join-filter.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 559,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-null-values",
+    "title": "559. JOIN NULL Values",
+    "url": "/learn/introduction-to-sql/join-null-values.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 560,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-best-practices",
+    "title": "560. JOIN Best Practices",
+    "url": "/learn/introduction-to-sql/join-best-practices.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 561,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-subquery-561",
+    "title": "561. JOIN with Subquery",
+    "url": "/learn/introduction-to-sql/join-with-subquery-561.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 562,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cte-562",
+    "title": "562. JOIN with CTE",
+    "url": "/learn/introduction-to-sql/join-with-cte-562.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 563,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-window-function-563",
+    "title": "563. JOIN with Window Function",
+    "url": "/learn/introduction-to-sql/join-with-window-function-563.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 564,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-rank",
+    "title": "564. JOIN with RANK",
+    "url": "/learn/introduction-to-sql/join-with-rank.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 565,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-row-number",
+    "title": "565. JOIN with ROW_NUMBER",
+    "url": "/learn/introduction-to-sql/join-with-row-number.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 566,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-lag",
+    "title": "566. JOIN with LAG",
+    "url": "/learn/introduction-to-sql/join-with-lag.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 567,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-lead",
+    "title": "567. JOIN with LEAD",
+    "url": "/learn/introduction-to-sql/join-with-lead.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 568,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-coalesce-568",
+    "title": "568. JOIN with COALESCE",
+    "url": "/learn/introduction-to-sql/join-with-coalesce-568.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 569,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-null-check-569",
+    "title": "569. JOIN with NULL Check",
+    "url": "/learn/introduction-to-sql/join-with-null-check-569.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 570,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-validation",
+    "title": "570. JOIN Validation",
+    "url": "/learn/introduction-to-sql/join-validation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 571,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-571",
+    "title": "571. Self JOIN",
+    "url": "/learn/introduction-to-sql/self-join-571.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 572,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-for-employees",
+    "title": "572. Self JOIN for Employees",
+    "url": "/learn/introduction-to-sql/self-join-for-employees.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 573,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-for-comparison",
+    "title": "573. Self JOIN for Comparison",
+    "url": "/learn/introduction-to-sql/self-join-for-comparison.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 574,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-574",
+    "title": "574. CROSS JOIN",
+    "url": "/learn/introduction-to-sql/cross-join-574.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 575,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cartesian-product",
+    "title": "575. Cartesian Product",
+    "url": "/learn/introduction-to-sql/cartesian-product.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 576,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-use-case",
+    "title": "576. CROSS JOIN Use Case",
+    "url": "/learn/introduction-to-sql/cross-join-use-case.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 577,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "anti-join-577",
+    "title": "577. ANTI JOIN",
+    "url": "/learn/introduction-to-sql/anti-join-577.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 578,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "semi-join-578",
+    "title": "578. SEMI JOIN",
+    "url": "/learn/introduction-to-sql/semi-join-578.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 579,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "exists-with-join-579",
+    "title": "579. EXISTS with JOIN",
+    "url": "/learn/introduction-to-sql/exists-with-join-579.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 580,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "not-exists-with-join",
+    "title": "580. NOT EXISTS with JOIN",
+    "url": "/learn/introduction-to-sql/not-exists-with-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 581,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-duplicates-581",
+    "title": "581. JOIN Duplicates",
+    "url": "/learn/introduction-to-sql/join-duplicates-581.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 582,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "remove-join-duplicates",
+    "title": "582. Remove JOIN Duplicates",
+    "url": "/learn/introduction-to-sql/remove-join-duplicates.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 583,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "one-to-one-join-583",
+    "title": "583. One-to-One JOIN",
+    "url": "/learn/introduction-to-sql/one-to-one-join-583.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 584,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "one-to-many-join-584",
+    "title": "584. One-to-Many JOIN",
+    "url": "/learn/introduction-to-sql/one-to-many-join-584.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 585,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "many-to-many-join-585",
+    "title": "585. Many-to-Many JOIN",
+    "url": "/learn/introduction-to-sql/many-to-many-join-585.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 586,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "bridge-table-join",
+    "title": "586. Bridge Table JOIN",
+    "url": "/learn/introduction-to-sql/bridge-table-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 587,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-on-multiple-columns-587",
+    "title": "587. JOIN on Multiple Columns",
+    "url": "/learn/introduction-to-sql/join-on-multiple-columns-587.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 588,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-on-composite-key",
+    "title": "588. JOIN on Composite Key",
+    "url": "/learn/introduction-to-sql/join-on-composite-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 589,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-date",
+    "title": "589. JOIN Using Date",
+    "url": "/learn/introduction-to-sql/join-using-date.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 590,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "range-join-590",
+    "title": "590. Range JOIN",
+    "url": "/learn/introduction-to-sql/range-join-590.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 591,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-range-join-591",
+    "title": "591. Date Range JOIN",
+    "url": "/learn/introduction-to-sql/date-range-join-591.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 592,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join-592",
+    "title": "592. Non-Equi JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join-592.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 593,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-593",
+    "title": "593. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case-593.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 594,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregation",
+    "title": "594. JOIN with Aggregation",
+    "url": "/learn/introduction-to-sql/join-with-aggregation.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 595,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-count-595",
+    "title": "595. JOIN with COUNT",
+    "url": "/learn/introduction-to-sql/join-with-count-595.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 596,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-sum-596",
+    "title": "596. JOIN with SUM",
+    "url": "/learn/introduction-to-sql/join-with-sum-596.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 597,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-avg-597",
+    "title": "597. JOIN with AVG",
+    "url": "/learn/introduction-to-sql/join-with-avg-597.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 598,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-min-and-max-598",
+    "title": "598. JOIN with MIN and MAX",
+    "url": "/learn/introduction-to-sql/join-with-min-and-max-598.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 599,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-having-599",
+    "title": "599. JOIN with HAVING",
+    "url": "/learn/introduction-to-sql/join-with-having-599.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 600,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-order-by-600",
+    "title": "600. JOIN with ORDER BY",
+    "url": "/learn/introduction-to-sql/join-with-order-by-600.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 591,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-range-join-591-2",
+    "title": "591. Date Range JOIN",
+    "url": "/learn/introduction-to-sql/date-range-join-591-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 592,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join-592-2",
+    "title": "592. Non-Equi JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join-592-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 593,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-593-2",
+    "title": "593. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case-593-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 594,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregation-594",
+    "title": "594. JOIN with Aggregation",
+    "url": "/learn/introduction-to-sql/join-with-aggregation-594.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 595,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-count-595-2",
+    "title": "595. JOIN with COUNT",
+    "url": "/learn/introduction-to-sql/join-with-count-595-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 596,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-sum-596-2",
+    "title": "596. JOIN with SUM",
+    "url": "/learn/introduction-to-sql/join-with-sum-596-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 597,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-avg-597-2",
+    "title": "597. JOIN with AVG",
+    "url": "/learn/introduction-to-sql/join-with-avg-597-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 598,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-min-and-max-598-2",
+    "title": "598. JOIN with MIN and MAX",
+    "url": "/learn/introduction-to-sql/join-with-min-and-max-598-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 599,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-having-599-2",
+    "title": "599. JOIN with HAVING",
+    "url": "/learn/introduction-to-sql/join-with-having-599-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 600,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-order-by-600-2",
+    "title": "600. JOIN with ORDER BY",
+    "url": "/learn/introduction-to-sql/join-with-order-by-600-2.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 611,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-subquery-611",
+    "title": "611. JOIN with Subquery",
+    "url": "/learn/introduction-to-sql/join-with-subquery-611.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 612,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cte-612",
+    "title": "612. JOIN with CTE",
+    "url": "/learn/introduction-to-sql/join-with-cte-612.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 613,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-window-function-613",
+    "title": "613. JOIN with Window Function",
+    "url": "/learn/introduction-to-sql/join-with-window-function-613.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 614,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-rank-614",
+    "title": "614. JOIN with RANK",
+    "url": "/learn/introduction-to-sql/join-with-rank-614.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 615,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-dense-rank",
+    "title": "615. JOIN with DENSE_RANK",
+    "url": "/learn/introduction-to-sql/join-with-dense-rank.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 616,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-row-number-616",
+    "title": "616. JOIN with ROW_NUMBER",
+    "url": "/learn/introduction-to-sql/join-with-row-number-616.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 617,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "latest-record-using-join",
+    "title": "617. Latest Record Using JOIN",
+    "url": "/learn/introduction-to-sql/latest-record-using-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 618,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "first-record-using-join",
+    "title": "618. First Record Using JOIN",
+    "url": "/learn/introduction-to-sql/first-record-using-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 619,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "top-n-per-group",
+    "title": "619. TOP N per Group",
+    "url": "/learn/introduction-to-sql/top-n-per-group.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 620,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-performance-basics",
+    "title": "620. JOIN Performance Basics",
+    "url": "/learn/introduction-to-sql/join-performance-basics.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 621,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "index-for-join",
+    "title": "621. Index for JOIN",
+    "url": "/learn/introduction-to-sql/index-for-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 622,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "indexing-join-keys",
+    "title": "622. Indexing JOIN Keys",
+    "url": "/learn/introduction-to-sql/indexing-join-keys.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 623,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-selectivity",
+    "title": "623. JOIN Selectivity",
+    "url": "/learn/introduction-to-sql/join-selectivity.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 624,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-cardinality-624",
+    "title": "624. JOIN Cardinality",
+    "url": "/learn/introduction-to-sql/join-cardinality-624.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 625,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-row-multiplication-625",
+    "title": "625. JOIN Row Multiplication",
+    "url": "/learn/introduction-to-sql/join-row-multiplication-625.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 626,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-grain",
+    "title": "626. JOIN Grain",
+    "url": "/learn/introduction-to-sql/join-grain.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 627,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "pre-aggregation-before-join",
+    "title": "627. Pre-Aggregation Before JOIN",
+    "url": "/learn/introduction-to-sql/pre-aggregation-before-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 628,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregated-subquery",
+    "title": "628. JOIN with Aggregated Subquery",
+    "url": "/learn/introduction-to-sql/join-with-aggregated-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 629,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-multiple-aggregates",
+    "title": "629. JOIN with Multiple Aggregates",
+    "url": "/learn/introduction-to-sql/join-with-multiple-aggregates.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 630,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-data-validation-630",
+    "title": "630. JOIN Data Validation",
+    "url": "/learn/introduction-to-sql/join-data-validation-630.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 631,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-basics",
+    "title": "631. Self JOIN Basics",
+    "url": "/learn/introduction-to-sql/self-join-basics.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 632,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "employee-manager-self-join",
+    "title": "632. Employee Manager Self JOIN",
+    "url": "/learn/introduction-to-sql/employee-manager-self-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 633,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "employees-without-manager",
+    "title": "633. Employees Without Manager",
+    "url": "/learn/introduction-to-sql/employees-without-manager.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 634,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "employees-with-same-manager",
+    "title": "634. Employees with Same Manager",
+    "url": "/learn/introduction-to-sql/employees-with-same-manager.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 635,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-for-row-comparison",
+    "title": "635. Self JOIN for Row Comparison",
+    "url": "/learn/introduction-to-sql/self-join-for-row-comparison.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 636,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "self-join-for-duplicate-detection",
+    "title": "636. Self JOIN for Duplicate Detection",
+    "url": "/learn/introduction-to-sql/self-join-for-duplicate-detection.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 637,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-basics",
+    "title": "637. CROSS JOIN Basics",
+    "url": "/learn/introduction-to-sql/cross-join-basics.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 638,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-row-count",
+    "title": "638. CROSS JOIN Row Count",
+    "url": "/learn/introduction-to-sql/cross-join-row-count.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 639,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-business-use",
+    "title": "639. CROSS JOIN Business Use",
+    "url": "/learn/introduction-to-sql/cross-join-business-use.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 640,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "cross-join-with-filter",
+    "title": "640. CROSS JOIN with Filter",
+    "url": "/learn/introduction-to-sql/cross-join-with-filter.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 641,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-join-641",
+    "title": "641. NATURAL JOIN",
+    "url": "/learn/introduction-to-sql/natural-join-641.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 642,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "natural-left-join",
+    "title": "642. NATURAL LEFT JOIN",
+    "url": "/learn/introduction-to-sql/natural-left-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 643,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using",
+    "title": "643. JOIN USING",
+    "url": "/learn/introduction-to-sql/join-using.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 644,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-using-multiple-columns-644",
+    "title": "644. JOIN USING Multiple Columns",
+    "url": "/learn/introduction-to-sql/join-using-multiple-columns-644.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 645,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "composite-key-join-645",
+    "title": "645. Composite Key JOIN",
+    "url": "/learn/introduction-to-sql/composite-key-join-645.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 646,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-multiple-conditions-646",
+    "title": "646. JOIN with Multiple Conditions",
+    "url": "/learn/introduction-to-sql/join-with-multiple-conditions-646.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 647,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-date-range",
+    "title": "647. JOIN with Date Range",
+    "url": "/learn/introduction-to-sql/join-with-date-range.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 648,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "temporal-join",
+    "title": "648. Temporal JOIN",
+    "url": "/learn/introduction-to-sql/temporal-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 649,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "range-join-649",
+    "title": "649. Range JOIN",
+    "url": "/learn/introduction-to-sql/range-join-649.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 650,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "non-equi-join-650",
+    "title": "650. Non-Equi JOIN",
+    "url": "/learn/introduction-to-sql/non-equi-join-650.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 651,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "equi-join-651",
+    "title": "651. EQUI JOIN",
+    "url": "/learn/introduction-to-sql/equi-join-651.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 652,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "anti-join-652",
+    "title": "652. ANTI JOIN",
+    "url": "/learn/introduction-to-sql/anti-join-652.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 653,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "semi-join-653",
+    "title": "653. SEMI JOIN",
+    "url": "/learn/introduction-to-sql/semi-join-653.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 654,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "semi-join-vs-inner-join",
+    "title": "654. SEMI JOIN vs INNER JOIN",
+    "url": "/learn/introduction-to-sql/semi-join-vs-inner-join.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 655,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "anti-join-with-not-exists",
+    "title": "655. ANTI JOIN with NOT EXISTS",
+    "url": "/learn/introduction-to-sql/anti-join-with-not-exists.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 656,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-exists",
+    "title": "656. JOIN with EXISTS",
+    "url": "/learn/introduction-to-sql/join-with-exists.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 657,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-657",
+    "title": "657. JOIN with CASE",
+    "url": "/learn/introduction-to-sql/join-with-case-657.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 658,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-coalesce-658",
+    "title": "658. JOIN with COALESCE",
+    "url": "/learn/introduction-to-sql/join-with-coalesce-658.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 659,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-null-handling",
+    "title": "659. JOIN NULL Handling",
+    "url": "/learn/introduction-to-sql/join-null-handling.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 660,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-filter-placement",
+    "title": "660. JOIN Filter Placement",
+    "url": "/learn/introduction-to-sql/join-filter-placement.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 661,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "filter-in-join-on-clause",
+    "title": "661. Filter in JOIN ON Clause",
+    "url": "/learn/introduction-to-sql/filter-in-join-on-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 662,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "filter-in-join-where-clause",
+    "title": "662. Filter in JOIN WHERE Clause",
+    "url": "/learn/introduction-to-sql/filter-in-join-where-clause.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 663,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-condition-with-or",
+    "title": "663. JOIN Condition with OR",
+    "url": "/learn/introduction-to-sql/join-condition-with-or.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 664,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-condition-with-and",
+    "title": "664. JOIN Condition with AND",
+    "url": "/learn/introduction-to-sql/join-condition-with-and.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 665,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-condition-with-between",
+    "title": "665. JOIN Condition with BETWEEN",
+    "url": "/learn/introduction-to-sql/join-condition-with-between.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 666,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-not-equal",
+    "title": "666. JOIN with NOT Equal",
+    "url": "/learn/introduction-to-sql/join-with-not-equal.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 667,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-greater-than",
+    "title": "667. JOIN with Greater Than",
+    "url": "/learn/introduction-to-sql/join-with-greater-than.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 668,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-less-than",
+    "title": "668. JOIN with Less Than",
+    "url": "/learn/introduction-to-sql/join-with-less-than.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 669,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregated-cte",
+    "title": "669. JOIN with Aggregated CTE",
+    "url": "/learn/introduction-to-sql/join-with-aggregated-cte.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 670,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-multiple-ctes",
+    "title": "670. JOIN with Multiple CTEs",
+    "url": "/learn/introduction-to-sql/join-with-multiple-ctes.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 671,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-window-aggregate",
+    "title": "671. JOIN with Window Aggregate",
+    "url": "/learn/introduction-to-sql/join-with-window-aggregate.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 672,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-running-total",
+    "title": "672. JOIN with Running Total",
+    "url": "/learn/introduction-to-sql/join-with-running-total.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 673,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-lag-673",
+    "title": "673. JOIN with LAG",
+    "url": "/learn/introduction-to-sql/join-with-lag-673.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 674,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-lead-674",
+    "title": "674. JOIN with LEAD",
+    "url": "/learn/introduction-to-sql/join-with-lead-674.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 675,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-first-value",
+    "title": "675. JOIN with FIRST_VALUE",
+    "url": "/learn/introduction-to-sql/join-with-first-value.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 676,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-last-value",
+    "title": "676. JOIN with LAST_VALUE",
+    "url": "/learn/introduction-to-sql/join-with-last-value.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 677,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-ntile",
+    "title": "677. JOIN with NTILE",
+    "url": "/learn/introduction-to-sql/join-with-ntile.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 678,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-percent-rank",
+    "title": "678. JOIN with PERCENT_RANK",
+    "url": "/learn/introduction-to-sql/join-with-percent-rank.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 679,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cume-dist",
+    "title": "679. JOIN with CUME_DIST",
+    "url": "/learn/introduction-to-sql/join-with-cume-dist.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 680,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-filtered-cte",
+    "title": "680. JOIN with Filtered CTE",
+    "url": "/learn/introduction-to-sql/join-with-filtered-cte.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 681,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-subquery-681",
+    "title": "681. JOIN with Subquery",
+    "url": "/learn/introduction-to-sql/join-with-subquery-681.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 682,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-derived-table-682",
+    "title": "682. JOIN with Derived Table",
+    "url": "/learn/introduction-to-sql/join-with-derived-table-682.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 683,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-aggregated-subquery-683",
+    "title": "683. JOIN with Aggregated Subquery",
+    "url": "/learn/introduction-to-sql/join-with-aggregated-subquery-683.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 684,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-distinct-subquery",
+    "title": "684. JOIN with DISTINCT Subquery",
+    "url": "/learn/introduction-to-sql/join-with-distinct-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 685,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-top-subquery",
+    "title": "685. JOIN with TOP Subquery",
+    "url": "/learn/introduction-to-sql/join-with-top-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 686,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-limit-subquery",
+    "title": "686. JOIN with LIMIT Subquery",
+    "url": "/learn/introduction-to-sql/join-with-limit-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 687,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-fetch-first",
+    "title": "687. JOIN with FETCH FIRST",
+    "url": "/learn/introduction-to-sql/join-with-fetch-first.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 688,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-union-result",
+    "title": "688. JOIN with UNION Result",
+    "url": "/learn/introduction-to-sql/join-with-union-result.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 689,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-union-all",
+    "title": "689. JOIN with UNION ALL",
+    "url": "/learn/introduction-to-sql/join-with-union-all.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 690,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-intersect-result",
+    "title": "690. JOIN with INTERSECT Result",
+    "url": "/learn/introduction-to-sql/join-with-intersect-result.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 691,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-except-result",
+    "title": "691. JOIN with EXCEPT Result",
+    "url": "/learn/introduction-to-sql/join-with-except-result.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 692,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-set-operations",
+    "title": "692. JOIN with Set Operations",
+    "url": "/learn/introduction-to-sql/join-with-set-operations.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 693,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-case-based-key",
+    "title": "693. JOIN with CASE-Based Key",
+    "url": "/learn/introduction-to-sql/join-with-case-based-key.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 694,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-cast",
+    "title": "694. JOIN with CAST",
+    "url": "/learn/introduction-to-sql/join-with-cast.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 695,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-convert",
+    "title": "695. JOIN with CONVERT",
+    "url": "/learn/introduction-to-sql/join-with-convert.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 696,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-string-normalization",
+    "title": "696. JOIN with String Normalization",
+    "url": "/learn/introduction-to-sql/join-with-string-normalization.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 697,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-trim",
+    "title": "697. JOIN with TRIM",
+    "url": "/learn/introduction-to-sql/join-with-trim.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 698,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-upper-and-lower",
+    "title": "698. JOIN with UPPER and LOWER",
+    "url": "/learn/introduction-to-sql/join-with-upper-and-lower.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 699,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-concat",
+    "title": "699. JOIN with CONCAT",
+    "url": "/learn/introduction-to-sql/join-with-concat.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 700,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "use-database",
+    "title": "700. USE DATABASE",
+    "url": "/learn/introduction-to-sql/use-database.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 701,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "alter-table",
+    "title": "701. ALTER TABLE",
+    "url": "/learn/introduction-to-sql/alter-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 702,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "drop-table",
+    "title": "702. DROP TABLE",
+    "url": "/learn/introduction-to-sql/drop-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 703,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "truncate-table",
+    "title": "703. TRUNCATE TABLE",
+    "url": "/learn/introduction-to-sql/truncate-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 704,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "insert-into",
+    "title": "704. INSERT INTO",
+    "url": "/learn/introduction-to-sql/insert-into.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 705,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "insert-multiple-rows",
+    "title": "705. Insert Multiple Rows",
+    "url": "/learn/introduction-to-sql/insert-multiple-rows.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 706,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "insert-selected-columns",
+    "title": "706. Insert Selected Columns",
+    "url": "/learn/introduction-to-sql/insert-selected-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 708,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "insert-from-select",
+    "title": "708. INSERT FROM SELECT",
+    "url": "/learn/introduction-to-sql/insert-from-select.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 709,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "create-table",
+    "title": "709. CREATE TABLE",
+    "url": "/learn/introduction-to-sql/create-table.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 710,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "update",
+    "title": "710. UPDATE",
+    "url": "/learn/introduction-to-sql/update.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 711,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "update-multiple-columns",
+    "title": "711. UPDATE Multiple Columns",
+    "url": "/learn/introduction-to-sql/update-multiple-columns.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 712,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "update-with-where",
+    "title": "712. UPDATE with WHERE",
+    "url": "/learn/introduction-to-sql/update-with-where.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 713,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "update-using-expressions",
+    "title": "713. UPDATE using Expressions",
+    "url": "/learn/introduction-to-sql/update-using-expressions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 714,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "subquery",
+    "title": "714. Subquery",
+    "url": "/learn/introduction-to-sql/subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 715,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "delete",
+    "title": "715. DELETE",
+    "url": "/learn/introduction-to-sql/delete.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 716,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "delete-with-where",
+    "title": "716. DELETE with WHERE",
+    "url": "/learn/introduction-to-sql/delete-with-where.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 717,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "delete-multiple-rows",
+    "title": "717. DELETE Multiple Rows",
+    "url": "/learn/introduction-to-sql/delete-multiple-rows.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 718,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "delete-vs-truncate-vs-drop",
+    "title": "718. DELETE vs TRUNCATE vs DROP",
+    "url": "/learn/introduction-to-sql/delete-vs-truncate-vs-drop.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 719,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "subquery-719",
+    "title": "719. Subquery",
+    "url": "/learn/introduction-to-sql/subquery-719.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 720,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "exists",
+    "title": "720. EXISTS",
+    "url": "/learn/introduction-to-sql/exists.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 721,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "in-with-subquery",
+    "title": "721. IN with Subquery",
+    "url": "/learn/introduction-to-sql/in-with-subquery.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 722,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "views",
+    "title": "722. Views",
+    "url": "/learn/introduction-to-sql/views.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 723,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "create-view",
+    "title": "723. CREATE VIEW",
+    "url": "/learn/introduction-to-sql/create-view.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 724,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "transactions",
+    "title": "724. Transactions",
+    "url": "/learn/introduction-to-sql/transactions.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 725,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "commit",
+    "title": "725. COMMIT",
+    "url": "/learn/introduction-to-sql/commit.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 726,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "rollback",
+    "title": "726. ROLLBACK",
+    "url": "/learn/introduction-to-sql/rollback.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 727,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-filtering",
+    "title": "727. Date Filtering",
+    "url": "/learn/introduction-to-sql/date-filtering.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 728,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "date-differences",
+    "title": "728. Date Differences",
+    "url": "/learn/introduction-to-sql/date-differences.html"
+  },
+  {
+    "moduleId": 1,
+    "lessonId": 729,
+    "moduleSlug": "introduction-to-sql",
+    "lessonSlug": "join-with-substring",
+    "title": "729. JOIN with SUBSTRING",
+    "url": "/learn/introduction-to-sql/join-with-substring.html"
+  }
+]
