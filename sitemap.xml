@@ -32,4 +32,3644 @@
         <priority>0.5</priority>
     </url>
 
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/what-is-sql.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/what-is-database.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/relational-database.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/database-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/database-row.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/database-column.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-standards.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-command-categories.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/who-uses-sql.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-for-data-analysts.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/create-database.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/select-statement.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/select-distinct.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-alias.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/where-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/comparison-operators.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/and-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/or-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/limit.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/fetch-first.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-comments.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-null-value.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/between-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/in-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-wildcards.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-string-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-numeric-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-date-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-boolean-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-expressions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-constants.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-arithmetic-operators.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-operator-precedence.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-logical-operators.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equal-to-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-equal-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-or-equal-to.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-or-equal-to.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/and-operator-47.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/or-operator-48.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-operator-49.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/comparison-operators-50.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-concatenation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/upper-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lower-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/length-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/trim-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/substring-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/replace-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/round-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/abs-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/modulo-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/count-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/count-distinct.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sum-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/avg-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/min-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/max-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/aggregate-functions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-count.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-sum.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-avg.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-min.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-max.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/having-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/where-vs-having.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-with-group-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-with-group-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-with-multiple-aggregates.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-for-business-analysis.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-value.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null-82.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null-83.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-with-count.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-in-calculations.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-in-where-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-in-group-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-data-quality-analysis.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-data.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/varchar-data-type.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/char-data-type.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-concatenation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/upper-function-95.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lower-function-96.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/length-function-97.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/trim-function-98.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/substring-function-99.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/replace-function-100.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/charindex-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/patindex-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-search.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-comparison.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/collation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-data-type.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/time-data-type.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/datetime.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-date.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-timestamp.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-extraction.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/extract-year.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/extract-month.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/extract-day.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-difference.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-addition.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-subtraction.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-formatting.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-value-121.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null-122.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null-123.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-124.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-125.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-handling.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/default-value.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/check-constraint.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/unique-constraint.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-null-constraint.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/primary-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/composite-primary-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/foreign-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/referential-integrity.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/unique-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/surrogate-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/auto-increment.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/identity-column.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sequence.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/primary-key-131.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/composite-primary-key-132.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/foreign-key-133.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/referential-integrity-134.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/unique-key-135.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-key-136.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/surrogate-key-137.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/auto-increment-138.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/identity-column-139.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sequence-140.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/insert-select.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/select-into.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-alias-153.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/table-alias.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/column-alias.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-comments-156.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-keyword.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/limit-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/fetch-first-160.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-asc.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-desc.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/multiple-column-sorting.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-expression.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/where-clause-165.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equal-to-operator-166.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-equal-operator-167.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-operator-168.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-operator-169.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-or-equal-to-170.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-or-equal-to-171.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/and-operator-172.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/or-operator-173.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-operator-174.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/operator-precedence.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/between-operator-176.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-between.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/in-operator-178.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-in-operator.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-operator-180.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-like.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-with-percent-wildcard.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-with-underscore.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/escaping-like-wildcards.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null-185.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null-186.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-vs-zero.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-vs-empty-string.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-189.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-190.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-with-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/column-aliases.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/table-alias-194.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-concatenation-195.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/length-function-196.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/upper-function-197.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lower-function-198.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/trim-function-199.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/replace-function-200.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/substring-function-201.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-function-202.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-function-203.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/position-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/charindex-function-205.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/character-length.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/round-function-207.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ceiling-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/floor-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/abs-function-210.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/mod-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/power-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sqrt-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sign-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-date-215.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-time.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-timestamp-217.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/extracting-date-parts.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-addition-219.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-difference-220.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-221.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-222.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cast-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/convert-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/case-expression.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/simple-case-expression.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/searched-case-expression.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/string-concatenation-228.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/concat-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/trim-function-230.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ltrim-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rtrim-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/upper-function-233.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lower-function-234.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/replace-function-235.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/reverse-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/repeat-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lpad-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rpad-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/initcap-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/length-function-241.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/char-length-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/substring-function-243.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-function-244.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-function-245.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/position-function-246.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/instr-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/locate-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ascii-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/chr-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/abs-function-251.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ceiling-function-252.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/floor-function-253.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/round-function-254.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/truncate-number.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/power-function-256.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sqrt-function-257.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/mod-function-258.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sign-function-259.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rand-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-date-261.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-time-262.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/current-timestamp-263.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/now-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/getdate-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-part-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/extract-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-trunc-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/dateadd-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/datediff-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/day-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/month-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/year-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/hour-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/minute-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/second-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/dayofweek-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/dayofyear-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/week-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/last-day-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/first-day-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cast-function-282.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/convert-function-283.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/try-cast-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/try-convert-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-286.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-287.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/isnull-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nvl-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greatest-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/least-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/abs-function-292.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ceiling-function-293.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/floor-function-294.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/round-function-295.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/power-function-296.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sqrt-function-297.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/exp-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/log-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sign-function-300.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/mod-function-301.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/random-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/concat-function-303.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/concat-ws-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lower-function-305.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/upper-function-306.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/initcap-function-307.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/length-function-308.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-function-309.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-function-310.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/substring-function-311.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/trim-function-312.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ltrim-function-313.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rtrim-function-314.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/replace-function-315.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/position-function-316.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/instr-function-317.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/charindex-function-318.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/lpad-function-319.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rpad-function-320.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/ascii-function-321.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/chr-function-322.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/char-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/reverse-function-324.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/repeat-function-325.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/translate-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-327.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-328.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greatest-function-329.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/least-function-330.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cast-function-331.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/convert-function-332.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/isnull-function-333.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/case-expression-334.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/simple-case.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/searched-case.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-handling-337.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null-338.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null-339.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-vs-coalesce.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/select-distinct-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/limit-clause-343.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top-clause-344.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/fetch-first-345.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/offset-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-asc-347.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-desc-348.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/multiple-column-sorting-349.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-column-position.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/where-clause-351.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equal-to-operator-352.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-equal-operator-353.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-operator-354.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-operator-355.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/greater-than-or-equal-to-356.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/less-than-or-equal-to-357.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/and-operator-358.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/or-operator-359.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-operator-360.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/between-operator-361.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-between-362.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/in-operator-363.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-in-operator-364.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-operator-365.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-starts-with.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-ends-with.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/like-contains.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-like-369.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-wildcards-370.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-null-371.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/is-not-null-372.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-vs-zero-373.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/null-vs-empty-string-374.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/coalesce-function-375.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nullif-function-376.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/case-expression-377.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/simple-case-378.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/searched-case-379.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/case-with-aggregate-functions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/count-function-381.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/count-distinct-382.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sum-function-383.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/avg-function-384.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/min-function-385.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/max-function-386.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-clause-387.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/group-by-multiple-columns-388.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/having-clause-389.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/where-vs-having-390.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-391.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/order-by-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-393.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/distinct-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/limit-clause-395.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top-clause-396.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/fetch-first-397.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/offset.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top-n-queries.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/offset-pagination.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/inner-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/full-outer-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-primary-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-foreign-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-multiple-conditions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-duplicates.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/inner-join-401.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-402.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-join-403.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/full-outer-join-404.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-405.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-406.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-primary-key-407.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-foreign-key-408.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-multiple-conditions-409.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-duplicates-410.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/three-table-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/four-table-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-same-table-twice.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-aggregate-functions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-count.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-sum.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-avg.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-min-and-max.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-coalesce.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cte.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-with-filter.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/inner-join-vs-left-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-vs-right-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/full-join-vs-union.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-vs-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-vs-exists.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/anti-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/semi-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-441.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-442.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equi-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/range-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-range-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-on-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-composite-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-duplicate-rows.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-duplicate-data.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-distinct.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-order-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-where.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-group-by.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-having.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-limit.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-top.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-fetch.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-null-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-for-data-reconciliation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/inner-join-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/right-join-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/full-join-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregate-functions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/count-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sum-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/avg-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/min-and-max-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-470.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-coalesce-471.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-null-check.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-to-find-missing-records.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-to-find-matched-records.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-to-find-unmatched-records.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-subquery-476.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cte-477.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-window-function.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-union.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-performance.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-duplicate-records.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-row-multiplication.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-and-distinct.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-composite-key-484.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-on-multiple-conditions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-or-condition.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-on-date-range.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-488.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-489.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join-490.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equi-join-491.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-alias.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/qualifying-columns-in-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-order-by-496.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-group-by-497.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-having-498.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-where-499.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/sql-join-summary.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-performance-501.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-execution-plan.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-null-values-503.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-vs-not-exists.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-vs-subquery-505.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-vs-union.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/multiple-table-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/four-table-join-508.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/complex-join-conditions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/avoiding-accidental-cross-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-data-validation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/finding-missing-relationships.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/finding-orphan-records.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/referential-integrity-514.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/primary-key-and-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/foreign-key-and-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregate-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-derived-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cte-519.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-window-functions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-521.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-date-conditions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-range-conditions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/composite-key-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-526.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-for-employee-hierarchy.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-528.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-use-cases.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-join-530.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equi-join-531.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join-532.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/anti-join-533.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/semi-join-534.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/exists-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-duplicate-records-536.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-cardinality.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/one-to-one-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/one-to-many-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/many-to-many-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregate.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-count.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-sum.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-avg.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-min-and-max-545.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-having-546.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-distinct-547.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-order-by-548.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-limit-549.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-performance-550.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-index.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-execution-plan-552.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/nested-loop-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/hash-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/merge-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-order.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/left-join-filter.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-null-values.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-best-practices.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-subquery-561.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cte-562.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-window-function-563.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-rank.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-row-number.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-lag.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-lead.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-coalesce-568.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-null-check-569.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-validation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-571.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-for-employees.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-for-comparison.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-574.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cartesian-product.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-use-case.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/anti-join-577.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/semi-join-578.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/exists-with-join-579.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/not-exists-with-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-duplicates-581.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/remove-join-duplicates.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/one-to-one-join-583.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/one-to-many-join-584.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/many-to-many-join-585.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/bridge-table-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-on-multiple-columns-587.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-on-composite-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-date.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/range-join-590.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-range-join-591.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join-592.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-593.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregation.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-count-595.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-sum-596.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-avg-597.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-min-and-max-598.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-having-599.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-order-by-600.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-range-join-591-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join-592-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-593-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregation-594.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-count-595-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-sum-596-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-avg-597-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-min-and-max-598-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-having-599-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-order-by-600-2.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-subquery-611.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cte-612.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-window-function-613.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-rank-614.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-dense-rank.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-row-number-616.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/latest-record-using-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/first-record-using-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/top-n-per-group.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-performance-basics.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/index-for-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/indexing-join-keys.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-selectivity.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-cardinality-624.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-row-multiplication-625.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-grain.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/pre-aggregation-before-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregated-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-multiple-aggregates.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-data-validation-630.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-basics.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/employee-manager-self-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/employees-without-manager.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/employees-with-same-manager.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-for-row-comparison.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/self-join-for-duplicate-detection.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-basics.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-row-count.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-business-use.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/cross-join-with-filter.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-join-641.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/natural-left-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-using-multiple-columns-644.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/composite-key-join-645.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-multiple-conditions-646.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-date-range.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/temporal-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/range-join-649.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/non-equi-join-650.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/equi-join-651.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/anti-join-652.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/semi-join-653.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/semi-join-vs-inner-join.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/anti-join-with-not-exists.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-exists.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-657.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-coalesce-658.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-null-handling.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-filter-placement.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/filter-in-join-on-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/filter-in-join-where-clause.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-condition-with-or.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-condition-with-and.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-condition-with-between.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-not-equal.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-greater-than.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-less-than.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregated-cte.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-multiple-ctes.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-window-aggregate.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-running-total.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-lag-673.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-lead-674.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-first-value.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-last-value.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-ntile.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-percent-rank.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cume-dist.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-filtered-cte.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-subquery-681.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-derived-table-682.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-aggregated-subquery-683.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-distinct-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-top-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-limit-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-fetch-first.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-union-result.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-union-all.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-intersect-result.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-except-result.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-set-operations.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-case-based-key.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-cast.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-convert.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-string-normalization.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-trim.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-upper-and-lower.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-concat.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/use-database.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/alter-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/drop-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/truncate-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/insert-into.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/insert-multiple-rows.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/insert-selected-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/insert-from-select.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/create-table.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/update.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/update-multiple-columns.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/update-with-where.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/update-using-expressions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/delete.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/delete-with-where.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/delete-multiple-rows.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/delete-vs-truncate-vs-drop.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/subquery-719.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/exists.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/in-with-subquery.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/views.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/create-view.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/transactions.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/commit.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/rollback.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-filtering.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/date-differences.html</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://aisqlassistant.in/learn/introduction-to-sql/join-with-substring.html</loc>
+        <priority>0.6</priority>
+    </url>
+
 </urlset>
